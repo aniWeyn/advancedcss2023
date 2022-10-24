@@ -1,0 +1,91 @@
+.lecture{
+    @media (min-width: 500px) {
+        padding-left: 2%;
+        padding-right: 2%;
+        }
+        @media (min-width: 700px) {
+          padding-left: 2%;
+          padding-right: 2%;
+        }
+        
+    @media (min-width: 500px) {
+        font-size: 1em;
+
+        h1{
+            font-size: 2.5em
+        }
+    
+        h2{
+            font-size: 2em;
+        }
+        
+        h3{
+            font-size: 1.5em;
+        }
+
+        h4{
+            font-size: 1.3em;
+        }
+
+        h5{
+            font-size: 1.1em;
+        }
+    }
+
+    @media (min-width: 700px) {
+
+    font-size: 1.5em;
+      
+
+    h1{
+        font-size: 3em
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    h3{
+        font-size: 1.5em;
+    }
+
+    h4{
+        font-size: 1.3em;
+    }
+
+    h5{
+        font-size: 1.1em;
+    }
+}
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+@mixin button-font($color){
+    color: $color
+}
+
+.button-navigation {
+    display: flex;
+    justify-content: space-between;
+
+    button{
+        font-size: 0.8em;
+        @include button-font($accent-green);  //color: $accent-green
+        background-color: transparent;
+        border-color: transparent;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: rgba($accent-green, 0.1);
+    }
+  }
+
+  .slide{
+    min-height: 100vh;
+  }
+

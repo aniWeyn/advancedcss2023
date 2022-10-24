@@ -1,0 +1,254 @@
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: ([col-start] 1fr)[12];
+      grid-template-columns: repeat(12, [col-start] 1fr);
+  gap: 20px;
+}
+
+.wrapper > * {
+  grid-column: col-start / span 12;
+}
+
+@media (min-width: 500px) {
+  .side {
+    grid-column: col-start / span 3;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+  .ad {
+    grid-column: col-start / span 3;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+  .content, .main-footer {
+    grid-column: col-start 4 / span 9;
+  }
+  nav a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 700px) {
+  .main-nav {
+    grid-column: col-start / span 2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1 / 4;
+  }
+  .content {
+    grid-column: col-start 3 / span 8;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1 / 4;
+  }
+  .side {
+    grid-column: col-start 11 / span 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .ad {
+    grid-column: col-start 11 / span 2;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+  .main-footer {
+    grid-column: col-start / span 12;
+  }
+  nav a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 500px) {
+  #app {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media (min-width: 700px) {
+  #app {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+a.router-link-exact-active {
+  color: #42b983;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.sources {
+  font-size: 0.5rem;
+}
+
+.action {
+  text-shadow: 1px 2px 3px #42b983;
+}
+
+.action--underscore {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #42b983;
+          text-decoration-color: #42b983;
+  text-underline-position: under;
+}
+
+.action--highlight {
+  background: rgba(66, 185, 131, 0.2);
+}
+
+.space {
+  padding-bottom: 5px;
+}
+
+.space--large {
+  padding-top: 100px;
+}
+
+.example {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 50%;
+  font-size: 20px;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+.example--w100 {
+  width: 100%;
+  height: auto;
+}
+
+.tab {
+  padding-left: 20px;
+}
+
+.nav a {
+  padding-top: 10%;
+}
+
+.lecture {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 500px) {
+  .lecture {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media (min-width: 700px) {
+  .lecture {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media (min-width: 500px) {
+  .lecture {
+    font-size: 1em;
+  }
+  .lecture h1 {
+    font-size: 2.5em;
+  }
+  .lecture h2 {
+    font-size: 2em;
+  }
+  .lecture h3 {
+    font-size: 1.5em;
+  }
+  .lecture h4 {
+    font-size: 1.3em;
+  }
+  .lecture h5 {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 700px) {
+  .lecture {
+    font-size: 1.5em;
+  }
+  .lecture h1 {
+    font-size: 3em;
+  }
+  .lecture h2 {
+    font-size: 2.5em;
+  }
+  .lecture h3 {
+    font-size: 1.5em;
+  }
+  .lecture h4 {
+    font-size: 1.3em;
+  }
+  .lecture h5 {
+    font-size: 1.1em;
+  }
+}
+
+.button-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.button-navigation button {
+  font-size: 0.8em;
+  color: #42b983;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.button-navigation button:hover {
+  background-color: rgba(66, 185, 131, 0.1);
+}
+
+.slide {
+  min-height: 100vh;
+}
+/*# sourceMappingURL=index.css.map */

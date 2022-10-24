@@ -1,0 +1,20 @@
+// & = &amp;
+// https://dev.w3.org/html5/html-author/charref
+.example {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-left: 10px;
+  }
+
+  .example--w100 {
+    width: 100%;
+    height: auto;
+  }
+
+  .tab {
+    padding-left: 20px;
+  }
