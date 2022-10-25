@@ -10,25 +10,16 @@
         </div>
       </div>
     </article>
-    <Sidebar />
-    <Sources />
-    <Footer />
   </div>
 </template>
 <script>
 import Navigation from "@/components/Navigation";
-import Sidebar from "@/components/Sidebar";
-import Sources from "@/components/Sources";
-import Footer from "@/components/Footer";
 import shuffle from "lodash/shuffle";
 
 export default {
   name: "Random",
   components: {
     Navigation,
-    Sidebar,
-    Sources,
-    Footer,
   },
   data() {
     return {

@@ -1,8 +1,11 @@
 <template>
   <div class="wrapper">
-    <Navigation />
     <article class="content">
-      <h1>Course</h1>
+      <div class="slide1">
+      <h1 class="title">Advanced CSS</h1>
+            <hr>
+      </div>
+      <div class="list">
       <h4>January 10, 2022</h4>
       <ol>
         <li>
@@ -303,30 +306,87 @@
         </li>
         <li>Individual Report</li>
       </ol>
+      </div>
     </article>
-    <Sidebar />
-    <Footer />
+    <!--     <Navigation /> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Sidebar from "@/components/Sidebar";
-import Footer from "@/components/Footer";
-import Navigation from "@/components/Navigation";
+// import Navigation from "@/components/Navigation";
 
 export default {
   name: "Home",
   components: {
-    Sidebar,
-    Footer,
-    Navigation,
+    //Navigation,
   },
 };
 </script>
 
-<style>
-.slide {
-  min-height: 100vh;
+<style scss>
+@keyframes leftRight {
+  0% {
+    opacity: 0;
+    width: 0%;
+    /*transform: translateX(-10000px);*/
+  }
+  90%{
+    opacity: 0.7;
+    width: 50%;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+    /*transform: translateX(0px);*/
+  }
+}
+
+hr {
+  animation: 2s ease-out 0s 1 leftRight;
+  width: 100%;
+}
+
+
+@keyframes slideUp {
+  0% {
+    min-height: 100vh;
+  }
+  100% {
+    min-height: 50vh;
+  }
+}
+
+.slide1 {
+  min-height: 50vh;
+  animation: 2s ease-out 0s 1 slideUp;
+}
+
+@keyframes welcome {
+  0% {
+    opacity: 0;
+  }
+  90%{
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title{
+  padding-top: 20vh;
+  font-size: 7rem;
+  font-weight: 900;
+  animation: 2s ease-out 0s 1 welcome;
+}
+
+.list a{
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.list li{
+  padding-bottom: 6px;
 }
 </style>

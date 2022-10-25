@@ -1,6 +1,18 @@
 <template>
   <div>
-    <h3>Sources:</h3>
+    <h3>Course description:</h3>
+    <a
+      target="_blank"
+      href="https://www.ntnu.edu/studies/courses/IDG1293#tab=omEmnet"
+      >IDG1293</a
+    >
+    <br />
+    <a
+      target="_blank"
+      href="https://www.ntnu.edu/studies/courses/IDG1293#tab=timeplan"
+      >Timeplan</a
+    >
+    <h3>Resources:</h3>
     <a target="_blank" href="https://9elements.com/bem-cheat-sheet/">BEM</a>
     <br />
     <a target="_blank" href="https://yoksel.github.io/flex-cheatsheet/"

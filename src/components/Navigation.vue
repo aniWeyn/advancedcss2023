@@ -1,8 +1,8 @@
 <template>
   <nav id="nav" class="main-nav nav">
-    <router-link to="/" class="main-nav__link">Course</router-link>
+    <router-link to="/" class="main-nav__link">Advanced CSS</router-link>
     <router-link to="/assignments" class="main-nav__link">Assignments</router-link>
-    <router-link to="/sources" class="main-nav__link">Sources</router-link>
+    <router-link to="/resources" class="main-nav__link">Resources</router-link>
   </nav>
 </template>
 
