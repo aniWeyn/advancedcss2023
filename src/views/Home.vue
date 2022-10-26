@@ -6,7 +6,14 @@
             <hr>
       </div>
       <div class="list">
-      <h4>January 10, 2022</h4>
+        <div class="subtitle">
+      <h2>Part 1 - basics review</h2>
+        </div>
+      <div class="day">
+       <div class="date">
+        <h4>January 10, 2022</h4>
+      </div>
+      <div class="topics">
       <ol>
         <li>
           <router-link to="/lecture00"
@@ -24,7 +31,13 @@
           <router-link to="/interactionsOnWeb">Interactions on Web</router-link>
         </li>
       </ol>
-      <h4>January 11, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date">
+        <h4>January 11, 2022</h4>
+      </div>
+      <div class="topics">
       <ol start="4">
         <li>
           <router-link to="/intersectionObserver"
@@ -80,7 +93,12 @@
           </router-link>
         </li>
       </ol>
-      <h4>January 12, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>January 12, 2022</h4>
+       </div>
+       <div class="topics">
       <ol start="11">
         <li>
           <router-link to="/cssshapes">CSS Shapes </router-link>
@@ -111,7 +129,11 @@
           <router-link to="/labsharing1">Your work!</router-link>
         </li>
       </ol>
-      <h4>January 13, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>January 13, 2022</h4></div>
+       <div class="topics">
       <ol start="20">
         <li><strong>Guest lecture - Felipe Hefler</strong></li>
         <li>
@@ -134,11 +156,22 @@
           >
         </li>
       </ol>
-      <h4>January 14, 2022</h4>
+      </div>
+      </div>
+      <div class="subtitle">
+      <h2>Part 2 - Creative use of CSS</h2>
+      </div>
+      <div class="day">
+       <div class="date"> <h4>January 14, 2022</h4></div>
+       <div class="topics">
       <ol start="25">
         <li>Requirements for Assignent 1</li>
       </ol>
-      <h4>February 14, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>February 14, 2022</h4></div>
+       <div class="topics">
       <ol start="26">
         <li>
           <router-link to="designingForAnimation"
@@ -158,7 +191,11 @@
           </router-link>
         </li>
       </ol>
-      <h4>February 15, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>February 15, 2022</h4></div>
+       <div class="topics">
       <ol start="29">
         <li>
           Requirements for Assignment 2
@@ -176,8 +213,11 @@
           >
         </li>
       </ol>
-
-      <h4>March 14, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>March 14, 2022</h4></div>
+       <div class="topics">
       <ol start="32">
         <li>
           <router-link to="/svg">Introduction to SVG </router-link>
@@ -208,13 +248,21 @@
           >
         </li>
       </ol>
-      <h4>March 15, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>March 15, 2022</h4></div>
+       <div class="topics">
       <ol start="38">
         <li>
           Requirements for Assignment 3
         </li>
       </ol>
-      <h4>April 4, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>April 4, 2022</h4></div>
+       <div class="topics">
       <ol start="39">
         <li>
           <router-link to="/scrollama">
@@ -264,8 +312,11 @@
           Prepresentations of Assignmnet 3 within groups
         </li>
       </ol>
-
-      <h4>April 25, 2022</h4>
+      </div>
+      </div>
+      <div class="day">
+       <div class="date"><h4>April 25, 2022</h4></div>
+       <div class="topics">
       <ol start="48">
         <li>
           <router-link to="/rootsofwebandcss">
@@ -307,6 +358,8 @@
         <li>Individual Report</li>
       </ol>
       </div>
+      </div>
+      </div>
     </article>
     <!--     <Navigation /> -->
   </div>
@@ -345,12 +398,16 @@ export default {
 hr {
   animation: 2s ease-out 0s 1 leftRight;
   width: 100%;
+  border-bottom-width: 0px;
 }
 
 
 @keyframes slideUp {
   0% {
     min-height: 100vh;
+  }
+  90% {
+    min-height: 90vh;
   }
   100% {
     min-height: 50vh;
@@ -359,7 +416,7 @@ hr {
 
 .slide1 {
   min-height: 50vh;
-  animation: 2s ease-out 0s 1 slideUp;
+  animation: 4s ease-out 0s 1 slideUp;
 }
 
 @keyframes welcome {
@@ -367,7 +424,7 @@ hr {
     opacity: 0;
   }
   90%{
-    opacity: 0.7;
+    opacity: 0.1;
   }
   100% {
     opacity: 1;
@@ -382,11 +439,39 @@ hr {
 }
 
 .list a{
-  font-weight: 400;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #2c3e50;
 }
 
 .list li{
-  padding-bottom: 6px;
+  padding-bottom: 16px;
+  color: #2c3e50;
+}
+
+h2{
+  font-size: 4rem;
+  font-weight: 900;
+  color: #DCDCD5;
+}
+
+.subtitle{
+  background-color: #2c3e50;
+}
+
+.day{
+    background-color: aliceblue;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.date > h4{
+  font-size: 3.5rem;
+  margin-top: 16px;
+  font-weight: 900;
 }
 </style>
