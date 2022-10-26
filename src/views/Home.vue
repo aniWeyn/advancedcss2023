@@ -421,6 +421,7 @@ hr {
 
 @keyframes welcome {
   0% {
+    color: #f54123;
     opacity: 0;
   }
   90%{
@@ -433,26 +434,31 @@ hr {
 
 .title{
   padding-top: 20vh;
-  font-size: 7rem;
+  margin-bottom: 30px;
+  font-size: 10rem;
   font-weight: 900;
   animation: 2s ease-out 0s 1 welcome;
 }
 
 .list a{
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   color: #2c3e50;
 }
 
 .list li{
-  padding-bottom: 16px;
+  font-size: 1.25rem;
+  line-height: 1.9rem;
+  font-weight: 500;
   color: #2c3e50;
 }
 
 h2{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 900;
   color: #DCDCD5;
+  padding-left: 40px;
 }
 
 .subtitle{
@@ -460,18 +466,36 @@ h2{
 }
 
 .day{
-    background-color: aliceblue;
-    width: 95vw;
+    background-color: rgba(240, 248, 255, 0.55);
+    width: 94vw;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: flex-start;
     margin-bottom: 60px;
+    padding-right: 4px;
 }
 
 .date > h4{
-  font-size: 3.5rem;
+  font-size: 2rem;
   margin-top: 16px;
   font-weight: 900;
+  color: #f54123;
+}
+
+@keyframes square {
+  0% {
+    transform: translateY(0vh);
+    background-color: #f54123;
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.square{
+  height: 20px;
+  width: 60px;
+  animation: 30s ease-out 0s infinite square;
 }
 </style>
