@@ -1,11 +1,20 @@
 <template>
   <div>
-    <h3>Course description:</h3>
+    <div class="link">
     <a
       target="_blank"
       href="https://www.ntnu.edu/studies/courses/IDG1293#tab=omEmnet"
-      >IDG1293</a
+      >Course Description</a
     >
+  </div>
+  <div class="link">
+    <a
+      target="_blank"
+      href="https://www.ntnu.no/studier/bwu/studiets-oppbygging#year=2022&programmeCode=BWU"
+      >Webutvikling – Studiets oppbygging</a
+    >
+  </div>
+  
     <br />
     <a
       target="_blank"
@@ -52,3 +61,16 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.link{
+  width: 100px;
+  height: 100px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.link > a{
+  color: white;
+}
+</style>

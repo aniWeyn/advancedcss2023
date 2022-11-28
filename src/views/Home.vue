@@ -362,17 +362,18 @@
       </div>
     </article>
     <!--     <Navigation /> -->
+    <Sources></Sources>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import Navigation from "@/components/Navigation";
+import Sources from "@/components/Sources";
 
 export default {
   name: "Home",
   components: {
-    //Navigation,
+    Sources
   },
 };
 </script>
