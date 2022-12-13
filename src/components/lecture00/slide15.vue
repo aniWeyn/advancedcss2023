@@ -1,7 +1,7 @@
 <template>
   <div class="slide">
     <hr />
-    <h2>Groups</h2>
+    <h3>Groups</h3>
     <p>
     Blackboard assigned you randomly to groups. Groups has usually 3 members. 
     </p>
