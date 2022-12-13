@@ -1,6 +1,7 @@
 <template>
   <div class="slide">
-    <h2>Online or on campus?</h2>
+    <hr />
+    <h3>Online or on campus?</h3>
     <p class="space">We will begin online and we will see how situation will evolve.</p>
     <h2>I cannot be on lecture, what to do?</h2>
     <p class="space">All lectures will be available in form of website and will be linked on BB.</p>

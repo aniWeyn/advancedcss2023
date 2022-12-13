@@ -1,6 +1,7 @@
 <template>
   <div class="slide">
-    <h2>Goal of the course</h2>
+    <hr />
+    <h3>Goal of the course</h3>
     All from
     <a href="https://www.ntnu.edu/studies/courses/IDG1293#tab=omEmnet"
       >Learning Outcomes</a

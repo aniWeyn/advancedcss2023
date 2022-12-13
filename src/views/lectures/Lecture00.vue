@@ -1,25 +1,21 @@
 <template>
   <div class="lecture">
-    <Slide00 v-if="render === 0" />
-    <Slide01 v-if="render === 1" />
-    <!--<Slide02 v-if="render === 2" />-->
-    <Slide03 v-if="render === 2" />
-    <Slide04 v-if="render === 3" />
-    <Slide05 v-if="render === 4" />
-    <Slide06 v-if="render === 5" />
-    <Slide07 v-if="render === 6" />
-    <Slide08 v-if="render === 7" />
-    <Slide09 v-if="render === 8" />
-    <Slide10 v-if="render === 9" />
-    <Slide11 v-if="render === 10" />
-    <Slide12 v-if="render === 11" />
-    <Slide13 v-if="render === 12" />
-    <Slide14 v-if="render === 13" />
-    <Slide15 v-if="render === 14" />
-    <div class="button-navigation">
-      <button v-if="render != 0" v-on:click="render -= 1">Back</button>
-      <button v-if="render != 14" v-on:click="render += 1">Next</button>
-    </div>
+    <Slide00 />
+    <Slide01 />
+    <!--<Slide02 />-->
+    <Slide03 />
+    <Slide04 />
+    <Slide05 />
+    <Slide06 />
+    <Slide07 />
+    <Slide08 />
+    <Slide09 />
+    <Slide10 />
+    <Slide11 />
+    <Slide12 />
+    <Slide13 />
+    <Slide14 />
+    <Slide15 />
   </div>
 </template>
 

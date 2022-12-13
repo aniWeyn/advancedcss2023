@@ -1,30 +1,27 @@
 <template>
   <div class="slide">
+    <hr />
     <h2>Timeline</h2>
     <ul>
-      <li>January 10 - L1: Introduction + CSS Selectors (w2)</li>
-      <li>January 11 - L2: Animating CSS (w2)</li>
-      <li>January 12 - L3: Animating SVG (w2)</li>
-      <li>January 13 - L4: CSS Grid, CSS Units, Text Effects (w2)</li>
-      <li>January 14 - L5: Flexbox + Simpel JS animations (w2)</li>
-      <li>January 14 - Assignment 0 - group contract (w2)</li>
-      <li>January 31 - Assignment 1 - group work on CodePen (w)</li>
+      <li><strong>Part 1 - Basics review</strong></li>
+      <li>January 09 - Lecture</li>
+      <li>January 10 - Lecture</li>
+      <li>January 11 - Lecture</li>
+      <li>January 12 - Lecture</li>
       <br/>
       <br/>
-      <li>February 14 - L6: Designing for animation / Storytelling / Accessibility (w7)</li>
-      <li>February 15 - L7: Working with Visual Studio Code and GitHub and Project Management (w7)</li>
-      <li>February 21 - Group Work (w8)</li>
-      <li>February 28 - Group Work (w9)</li>
-      <li>March 07 - Assignment 2 - group work design, project plan, GitHub (w)</li>
-      <br/>
-      <br/>
-      <li>March 14 - L8: Architecting CSS + Preprocessors... and SASS + CSS Variables vs. SASS variables (w11)</li>
-      <li>March 15 - L9: TBA (w11)</li>
-      <li>March 21 - Group Work (w12)</li>
-      <li>March 28 - Group Work (w13)</li>
-      <li>April 04 - L10: CSS Frameworks + Project feedback (w14)</li>
-      <li>April 25 - Assignmnet 3 - final project</li>
-      <li>April 25 - L11: TBA, Final Presentation (w17)</li>
+      <li><strong>Part 2 - Creative use of CSS</strong></li>
+      <li>January 13 - Lecture</li>
+      <li>February 03 - Lecture</li>
+      <li>February 17 - Lecture</li>
+      <li>February 24 - Group Work with TA</li>
+      <li>March 02 - Lecture</li>
+      <li>March 03 - Lecture</li>
+      <li>March 03 - Group Work with TA</li>
+      <li>March 31 - Group Work with TA</li>
+      <li>April 21 - Lecture</li>
+      <li>April 28 - Group Work with TA</li>
+      <li>May 05 - Lecture</li>
     </ul>
   </div>
 </template>

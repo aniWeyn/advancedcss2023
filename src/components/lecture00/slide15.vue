@@ -1,5 +1,6 @@
 <template>
   <div class="slide">
+    <hr />
     <h2>Groups</h2>
     <p>
     Blackboard assigned you randomly to groups. Groups has usually 3 members. 

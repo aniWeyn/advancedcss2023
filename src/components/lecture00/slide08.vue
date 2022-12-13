@@ -1,11 +1,9 @@
 <template>
   <div class="slide">
-    <div class="three-columns">
-      <div class="flex">
-        <h2 class="rotate">Assignment 2</h2>
-      </div>
+    <hr />
+        <h3>Assignment 2</h3>
       <div>
-        <h3>Scrollytelling/Storytelling and design for animation. GitHub project beginning.</h3>
+        <h4>Scrollytelling/Storytelling and design for animation. GitHub project beginning.</h4>
         deadline: 07.03, 08:15
         <p class="space">
           In Assignment 2 your group is expected to deliver a design of the project you will later develop as Assignment 3 (your final project). As well as started project on GitHub repository.
@@ -57,5 +55,4 @@
         </p>
       </div>
     </div>
-  </div>
 </template>

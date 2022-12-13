@@ -1,6 +1,7 @@
 <template>
   <div class="slide">
-    <h2>It's a good choice to learn Advanced CSS!</h2>
+    <hr />
+    <h3>It's a good choice to learn Advanced CSS!</h3>
     <p class="space">
       The market is missing talented developers who are fluent in CSS.
     </p>

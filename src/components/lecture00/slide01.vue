@@ -1,6 +1,7 @@
 <template>
   <div class="slide">
-    <h1>Welcome to the Advanced CSS course!</h1>
+    <hr />
+    <h3>Welcome to the Advanced CSS course!</h3>
     <p class="space">
       I'm Sabina Niewiadomska.
       <br />
