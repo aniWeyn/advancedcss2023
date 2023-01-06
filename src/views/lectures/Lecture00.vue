@@ -1,8 +1,8 @@
 <template>
   <div class="lecture">
-    <Slide00 />
-    <Slide01 />
-    <!--<Slide02 />-->
+    <Intro />
+    <AboutMe />
+    <AboutYou />
     <Slide03 />
     <Slide04 />
     <Slide05 />
@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import Slide00 from "@/components/lecture00/slide00.vue";
-import Slide01 from "@/components/lecture00/slide01.vue";
-/*import Slide02 from "@/components/lecture00/slide02.vue";*/
+import Intro from "@/components/lecture00/intro.vue";
+import AboutMe from "@/components/lecture00/aboutMe.vue";
+import AboutYou from "@/components/lecture00/aboutYou.vue";
 import Slide03 from "@/components/lecture00/slide03.vue";
 import Slide04 from "@/components/lecture00/slide04.vue";
 import Slide05 from "@/components/lecture00/slide05.vue";
@@ -40,9 +40,9 @@ import Slide15 from "@/components/lecture00/slide15.vue";
 export default {
   name: "Lecture00",
   components: {
-    Slide00,
-    Slide01,
-    /*Slide02,*/
+    Intro,
+    AboutMe,
+    AboutYou,
     Slide03,
     Slide04,
     Slide05,

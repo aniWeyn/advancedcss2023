@@ -394,7 +394,7 @@ export default {
 };
 </script>
 
-<style scss>
+<style scoped scss>
 @keyframes leftRight {
   0% {
     opacity: 0;

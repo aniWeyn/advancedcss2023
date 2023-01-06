@@ -1,15 +1,15 @@
 <template>
   <div class="slide">
     <hr />
-    <h2>Timeline</h2>
+    <h3>Timeline</h3>
     <ul>
       <li><strong>Part 1 - Basics review</strong></li>
       <li>January 09 - Lecture</li>
       <li>January 10 - Lecture</li>
       <li>January 11 - Lecture</li>
       <li>January 12 - Lecture</li>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <li><strong>Part 2 - Creative use of CSS</strong></li>
       <li>January 13 - Lecture</li>
       <li>February 03 - Lecture</li>
@@ -27,7 +27,7 @@
 </template>
 
 <style scoped>
-li{
-  list-style-type:none;
+li {
+  list-style-type: none;
 }
 </style>

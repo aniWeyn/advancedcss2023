@@ -1,7 +1,7 @@
 <template>
   <div class="slide">
     <hr />
-        <h3 class="rotate">Assignment 0</h3>
+        <h3>Assignment 0</h3>
       <div>
         <h4>Group Contract</h4>
         <p class="space">

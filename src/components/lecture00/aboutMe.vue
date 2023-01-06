@@ -9,11 +9,13 @@
       <span class="bold">sabina.niewiadomska@ntnu.no</span>
     </p>
     <p class="space">
-      I work with UX Research and Design, UI Design, Front-end development and Project Management.
+      I work with UX Research and Design, UI Design, Front-end development and
+      Project Management.
       <br />
       <br />
-      I worked for Norwegian companies such as Inmeta, KPMG Norway, Aprila Bank, System
-      Partner Norge, Azzista Sports Innovations and at the moment I work for Zoopit AS. 
+      I worked for Norwegian companies such as Inmeta, KPMG Norway, Aprila Bank,
+      System Partner Norge, Azzista Sports Innovations and at the moment I work
+      for Zoopit AS.
     </p>
   </div>
 </template>

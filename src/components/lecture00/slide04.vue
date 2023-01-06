@@ -1,7 +1,7 @@
 <template>
   <div class="slide">
     <hr />
-    <h2>Course work</h2>
+    <h3>Course work</h3>
     3 Assignments
     <ul>
       <li>Assignment 0 (not graded), Blackboard, deadline: 12.01, 23:59</li>

@@ -24,84 +24,8 @@
       </div>
     </section>
     <section class="resources">
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-          >developer.mozilla</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href=" https://codepip.com/games/grid-garden/"
-          >grid-garden</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout"
-          >common_layouts CSS_Grid</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://mozilladevelopers.github.io/playground/css-grid"
-          >mozilla developers playground css-grid</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://grid.layoutit.com/"
-          >layoutit</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://flexboxfroggy.com/"
-          >flexbox froggy</a
-        >
-      </div>
-      <div class="link">
-        <a target="_blank" href="https://yoksel.github.io/flex-cheatsheet/"
-          >Flex Cheatsheet</a
-        >
-      </div>
-      <div class="link">
-        <a target="_blank" href="https://9elements.com/bem-cheat-sheet/">BEM</a>
-      </div>
-      <div class="link">
-        <a target="_blank" href="https://bennettfeely.com/clippy/">clippy</a>
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://thoughtbot.com/blog/controlling-color-with-sass-color-functions"
-          >Controlling collors in SASS</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element"
-        >
-          Center an element</a
-        >
-      </div>
-      <div class="link">
-        <a target="_blank" href="https://fffuel.co/"> fffuel.co</a>
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://training.github.com/downloads/github-git-cheat-sheet/"
-        >
-          github-git-cheat-sheet</a
-        >
+      <div v-for="(link, index) in links" v-bind:key="index">
+        <LinkSquare :title="link.title" :href="link.href"></LinkSquare>
       </div>
     </section>
     <section class="visualsrudiocode">
@@ -114,10 +38,49 @@
 </template>
 
 <script>
+import LinkSquare from "@/components/slides/linkSquare";
+
 export default {
-  name: "Sources",
-  props: {
-    msg: String,
+  name: "Home",
+  components: {
+    LinkSquare,
+  },
+  data() {
+    return {
+      links: [
+        { title: "developer.mozilla", href: "developer.mozilla.org/en-US/docs/Web/CSS/" },
+        { title: "grid-garden", href: "codepip.com/games/grid-garden/" },
+        { title: "common_layouts CSS_Grid", href: "developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout" },
+        { title: "mozilla developers playground css-grid", href: "mozilladevelopers.github.io/playground/css-grid/" },
+        { title: "layoutit", href: "grid.layoutit.com/" },
+        { title: "flexbox froggy", href: "flexboxfroggy.com/" },
+        { title: "Flex Cheatsheet", href: "yoksel.github.io/flex-cheatsheet/" },
+        { title: "BEM Cheatsheet", href: "9elements.com/bem-cheat-sheet/" },
+        { title: "Get BEM", href: "getbem.com/introduction/" },
+        { title: "clippy", href: "bennettfeely.com/clippy/" },
+        { title: "keyframes", href: "keyframes.app/shadows/" },
+        { title: "mega-list-svg-information", href: "css-tricks.com/mega-list-svg-information/" },
+        { title: "SVG", href: "developer.mozilla.org/en-US/docs/Web/SVG" },
+        { title: "cubic Bézier curve", href: "codepen.io/thebabydino/pen/EKLNvZ" },
+        { title: "svgomg", href: "jakearchibald.github.io/svgomg/" },
+        { title: "Controlling collors in SASS", href: "thoughtbot.com/blog/controlling-color-with-sass-color-functions" },
+        { title: "Center an element", href: "developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element" },
+        { title: "fffuel.co", href: "fffuel.co/" },
+        { title: "How To Use GitHub", href: "https://www.youtube.com/watch?v=3Tn58KQvWtU" },
+        { title: "github quickstart", href:"docs.github.com/en/get-started/quickstart/hello-world"},
+        { title: "github-git-cheat-sheet", href: "training.github.com/downloads/github-git-cheat-sheet/" },
+        { title: "code.visualstudio", href: "https://code.visualstudio.com/" },
+        { title: "svgartista", href: "https://svgartista.net/" },
+        { title: "keyframes", href: "https://keyframes.app/animate/" },
+        { title: "animista", href: "https://animista.net/" },
+        { title: "css-selectors-cheatsheet", href: "https://frontend30.com/css-selectors-cheatsheet/" },
+        { title: "audio", href: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" },
+        { title: "Using and citing sources", href: "https://i.ntnu.no/academic-writing/using-and-citing-sources" },
+        { title: "Advice about writing", href: "https://i.ntnu.no/en/academic-writing/writing-tips" },
+        { title: "CSS Grid + Media Queries Example", href:"https://mdn.github.io/css-examples/learn/media-queries/grid.html"},
+        { title: "type-scale", href:"https://type-scale.com/"}
+      ],
+    };
   },
 };
 </script>
@@ -143,13 +106,11 @@ export default {
 
 .resources {
   display: flex;
-  margin: 10px;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .resources > .link {
-  margin: 2px;
   background-color: #2c3e50;
   display: flex;
   justify-content: center;
