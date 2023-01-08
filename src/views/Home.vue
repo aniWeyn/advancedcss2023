@@ -40,6 +40,7 @@
             <h4>January 10, 2023</h4>
           </div>
           <div class="topics">
+            <!--
             <ol start="4">
               <li>
                 <router-link to="/intersectionObserver"
@@ -100,12 +101,13 @@
                   >Lab: CSS Selectors: pseudo classes - :nth-last-child()
                 </router-link>
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>January 11, 2023</h4></div>
           <div class="topics">
+            <!--
             <ol start="11">
               <li>
                 <router-link to="/cssshapes">CSS Shapes </router-link>
@@ -138,13 +140,13 @@
               <li>
                 <router-link to="/labsharing1">Your work!</router-link>
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>January 12, 2023</h4></div>
           <div class="topics">
-            <ol start="20">
+            <!--<ol start="20">
               <li><strong>Guest lecture - Felipe Hefler</strong></li>
               <li>
                 <router-link to="/transitions">Transitions </router-link>
@@ -165,7 +167,7 @@
                   Animations</router-link
                 >
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="subtitle">
@@ -174,15 +176,15 @@
         <div class="day">
           <div class="date"><h4>January 13, 2023</h4></div>
           <div class="topics">
-            <ol start="25">
+            <!--<ol start="25">
               <li>Requirements for Assignent 1</li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>February 03, 2023</h4></div>
           <div class="topics">
-            <ol start="26">
+            <!--<ol start="26">
               <li>
                 <router-link to="designingForAnimation"
                   >Designing for animation
@@ -200,13 +202,13 @@
                   >Accessibility in CSS (A11y)
                 </router-link>
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>February 17, 2023</h4></div>
           <div class="topics">
-            <ol start="29">
+            <!--<ol start="29">
               <li>
                 Requirements for Assignment 2
               </li>
@@ -222,13 +224,13 @@
                   >Lab: SASS... what was that?</router-link
                 >
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>March 02, 2023</h4></div>
           <div class="topics">
-            <ol start="32">
+            <!--<ol start="32">
               <li>
                 <router-link to="/svg">Introduction to SVG </router-link>
               </li>
@@ -257,23 +259,23 @@
                   >Lab: Keyframes + CSS Variables</router-link
                 >
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>March 03, 2023</h4></div>
           <div class="topics">
-            <ol start="38">
+           <!-- <ol start="38">
               <li>
                 Requirements for Assignment 3
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>April 21, 2023</h4></div>
           <div class="topics">
-            <ol start="39">
+            <!--<ol start="39">
               <li>
                 <router-link to="/scrollama">
                   Scrollytelling: Scrollama
@@ -327,13 +329,13 @@
               <li>
                 Prepresentations of Assignmnet 3 within groups
               </li>
-            </ol>
+            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>May 5, 2023</h4></div>
           <div class="topics">
-            <ol start="48">
+            <!--<ol start="48">
               <li>
                 <router-link to="/rootsofwebandcss">
                   Why the Web and CSS is the way it is??
@@ -345,14 +347,14 @@
                 <router-link to="/performance">
                   Performance (lazy loading, core web vitals)
                 </router-link>
-              </li>
+              </li>-->
               <!--
         <li>
           <router-link to="/laboratories/laboratory08">
           Lab: Lazy Loading
           </router-link>
         </li>-->
-            </ol>
+           <!-- </ol>
             <ol start="50">
               <li>
                 <router-link to="/lectures/lecture09">
@@ -372,7 +374,7 @@
                 Presentations - project exhibitions
               </li>
               <li>Individual Report</li>
-            </ol>
+            </ol>-->
           </div>
         </div>
       </div>
@@ -442,18 +444,20 @@ hr {
   }
   90% {
     opacity: 0.1;
-  }
+  } 
   100% {
     opacity: 1;
   }
 }
 
+@media screen and (min-width: 40em) {
 .title {
   padding-top: 20vh;
   margin-bottom: 30px;
   font-size: 10rem;
   font-weight: 900;
   animation: 2s ease-out 0s 1 welcome;
+}
 }
 
 .list a {

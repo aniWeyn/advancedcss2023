@@ -1,7 +1,10 @@
 <template>
   <div class="lecture">
     <Intro />
+    <Slide13 />
     <AboutMe />
+    <AboutCourse />
+    <Slide11 />
     <AboutYou />
     <Slide03 />
     <Slide04 />
@@ -11,17 +14,16 @@
     <Slide08 />
     <Slide09 />
     <Slide10 />
-    <Slide11 />
     <Slide12 />
-    <Slide13 />
-    <Slide14 />
     <Slide15 />
+    <Slide14 />
   </div>
 </template>
 
 <script>
 import Intro from "@/components/lecture00/intro.vue";
 import AboutMe from "@/components/lecture00/aboutMe.vue";
+import AboutCourse from "@/components/lecture00/aboutCourse.vue";
 import AboutYou from "@/components/lecture00/aboutYou.vue";
 import Slide03 from "@/components/lecture00/slide03.vue";
 import Slide04 from "@/components/lecture00/slide04.vue";
@@ -43,6 +45,7 @@ export default {
     Intro,
     AboutMe,
     AboutYou,
+    AboutCourse,
     Slide03,
     Slide04,
     Slide05,

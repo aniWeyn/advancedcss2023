@@ -3,7 +3,7 @@
     <hr />
     <h3>Timeline</h3>
     <ul>
-      <li><strong>Part 1 - Basics review</strong></li>
+      <li><strong>Part 1 - Kick-Start</strong></li>
       <li>January 09 - Lecture</li>
       <li>January 10 - Lecture</li>
       <li>January 11 - Lecture</li>

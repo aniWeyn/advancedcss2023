@@ -1,16 +1,12 @@
 <template>
   <div class="slide">
     <hr />
-    <h3>Online or on campus?</h3>
-    <p class="space">
-      We will begin online and we will see how situation will evolve.
-    </p>
-    <h2>I cannot be on lecture, what to do?</h2>
+    <h3>I cannot be on lecture, what to do?</h3>
     <p class="space">
       All lectures will be available in form of website and will be linked on
       BB.
     </p>
-    <h2>How to succeed?</h2>
+    <h3>How to succeed?</h3>
     <p class="space">
       Check topics discussed during lectures and laboratories. Try to put them
       into practice and use creatively, expand on them. Work on your own!

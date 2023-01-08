@@ -13,8 +13,7 @@
             <li>how you will solve the conflicts</li>
           </ul>
         </p>
-        You cannot change your group during semester. Request to remove student from the group is consider as failure of the whole group.
-
+        You cannot change your group during semester. Practice working with everyone and practice solving conflicts.
       </div>
   </div>
 </template>

@@ -11,8 +11,9 @@
     </ul>
     If passed all obligatory assignments:
     <ul>
-      <li>Portfolio Project (pass/fail), Insperia, deadline: TBA</li>
-      <li>Individual Test, date: TBA</li>
+      <li>Portfolio Project, Insperia, deadline: TBA (60% of grade)</li>
+      <li>Individual Test, date: TBA (40% of grade)</li>
     </ul>
+    <p>See <a href="https://www.ntnu.edu/studies/courses/IDG1293#tab=omEksamen">Examination arrangement</a></p>
   </div>
 </template>

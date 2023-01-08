@@ -4,8 +4,7 @@
     <h3>Project Portfolio</h3>
     <div class="two-columns">
       <div>
-        <p class="space">...</p>
-        <p class="space">...</p>
+        <p class="space">Like Assignment 3 but perfect.</p>
       </div>
     </div>
   </div>

@@ -3,7 +3,6 @@
     <hr />
     <h3>Assignment 3</h3>
     <div>
-      <h4>Final assignments</h4>
       deadline: 25.04, 08:15
       <p class="space">Project - production release</p>
       <p class="space">

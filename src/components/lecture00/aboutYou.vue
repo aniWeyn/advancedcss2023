@@ -2,7 +2,7 @@
   <div class="slide">
     <hr />
     <Title title="About You!"></Title>
-    <p>One separate sticky notes write:</p>
+    <p>Ask your group partner following questions and make notes:</p>
     <ol>
       <li>Your name</li>
       <li>Where are you coming from (city, country)?</li>
@@ -12,6 +12,8 @@
         What are your hobbies? (ex. music, animals, sport, programming, etc.)
       </li>
       <li>What is your favourite vegetable?</li>
+      </ol>
+      <ol>
       <li>
         What is your programming background? (HTML, CSS, JS, C#, C++, etc.)
       </li>

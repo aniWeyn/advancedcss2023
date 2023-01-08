@@ -3,7 +3,7 @@
     <hr />
         <h3>Assignment 2</h3>
       <div>
-        <h4>Scrollytelling/Storytelling and design for animation. GitHub project beginning.</h4>
+        <h4>Develop simple CSS Game and design for animation. GitHub project beginning.</h4>
         deadline: 07.03, 08:15
         <p class="space">
           In Assignment 2 your group is expected to deliver a design of the project you will later develop as Assignment 3 (your final project). As well as started project on GitHub repository.

@@ -16,6 +16,9 @@
       I worked for Norwegian companies such as Inmeta, KPMG Norway, Aprila Bank,
       System Partner Norge, Azzista Sports Innovations and at the moment I work
       for Zoopit AS.
+      <br />
+      <br />
+      I have a cat and a dog. 
     </p>
   </div>
 </template>

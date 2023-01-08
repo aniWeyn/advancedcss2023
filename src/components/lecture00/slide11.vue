@@ -12,7 +12,7 @@
       high-quality projects.
     </p>
     <p class="space">
-      Help you to gain skills and knowledge on how to solve layout and look
+      Help you to gain skills and knowledge on how to solve layout and pesentation layer
       related problems.
     </p>
   </div>
