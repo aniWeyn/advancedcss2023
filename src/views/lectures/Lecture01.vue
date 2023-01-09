@@ -1,13 +1,6 @@
 <template>
   <div class="lecture">
     <Slide00 />
-    <Slide05 />
-    <Slide01 />
-    <!--<Slide02 v-if="render === 2" />
-    <Slide03 v-if="render === 3" />
-    <Slide04 v-if="render === 2" />-->
-    <Slide06 />
-    <Slide07 />
     
     <Slide09 />
     <Infinite />
@@ -30,14 +23,6 @@
 
 <script>
 import Slide00 from "@/components/lecture01/slide00.vue";
-import Slide01 from "@/components/lecture01/slide01.vue";
-//import Slide02 from "@/components/lecture01/slide02.vue";
-//import Slide03 from "@/components/lecture01/slide03.vue";
-// import Slide04 from "@/components/lecture01/slide04.vue";
-import Slide05 from "@/components/lecture01/slide05.vue";
-import Slide06 from "@/components/lecture01/slide06.vue";
-import Slide07 from "@/components/lecture01/slide07.vue";
-//import Slide08 from "@/components/lecture01/slide08.vue";
 import Slide09 from "@/components/lecture01/slide09.vue";
 import HorizontalScrolling from "@/components/lecture01/s_horizontal_scrolling.vue";
 import Infinite from "@/components/lecture01/s_Infinite.vue";
@@ -55,14 +40,6 @@ export default {
   name: "Lecture01",
   components: {
     Slide00,
-    Slide01,
-    //Slide02,
-    //Slide03,
-    //Slide04,
-    Slide05,
-    Slide06,
-    Slide07,
-    //Slide08,
     Slide09,
     ScrollytellingLearnmore,
     HorizontalScrolling,

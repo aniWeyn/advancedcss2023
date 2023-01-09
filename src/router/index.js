@@ -52,6 +52,22 @@ const routes = [
       ),
   },
   {
+    path: "/vocabulary",
+    name: "Vocabulary",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/Vocabulary.vue"
+      ),
+  },
+  {
+    path: "/books",
+    name: "Books",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/Books.vue"
+      ),
+  },
+  {
     path: "/lecture01",
     name: "Lecture01",
     component: () =>

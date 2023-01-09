@@ -20,11 +20,14 @@
                   >Course organisation, schedule and assignments</router-link
                 >
               </li>
+              <!--<li>
+                <router-link to="/resources">CSS Resources</router-link>
+              </li>-->
             </ol>
-            <ol start="2">
+            <ol start="3">
               <li>
-                <router-link to="/lecture01"
-                  >CSS resources and scrollytelling</router-link
+                <router-link to="/vocabulary"
+                  >CSS Vocabulary Review</router-link
                 >
               </li>
               <li>
@@ -32,6 +35,12 @@
                   >Interactions on Web</router-link
                 >
               </li>
+              <li>
+                <router-link to="/lecture01"
+                  >Scrollytelling</router-link
+                >
+              </li>
+ 
             </ol>
           </div>
         </div>
