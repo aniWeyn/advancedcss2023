@@ -1,12 +1,15 @@
 <template>
   <div class="lecture">
     <Intro />
+    <Question />
     <Slide10 />
+    
   </div>
 </template>
 
 <script>
 import Intro from "@/components/vocabulary/intro.vue";
+import Question from "@/components/vocabulary/question.vue";
 import Slide10 from "@/components/vocabulary/slide01.vue";
 
 
@@ -15,6 +18,7 @@ export default {
   components: {
     Intro,
     Slide10,
+    Question
   },
   data() {
     return {

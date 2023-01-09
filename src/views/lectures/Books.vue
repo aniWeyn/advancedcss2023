@@ -1,6 +1,7 @@
 <template>
   <div class="lecture">
     <Intro />
+    <Question />
     <Slide01 />
     <Slide06 />
     <Slide07 />
@@ -10,6 +11,7 @@
 
 <script>
 import Intro from "@/components/books/slide00.vue";
+import Question from "@/components/books/question.vue";
 import Slide01 from "@/components/books/slide01.vue";
 import Slide06 from "@/components/books/slide06.vue";
 import Slide07 from "@/components/books/slide07.vue";
@@ -22,7 +24,8 @@ export default {
     Slide01,
     Slide06,
     Slide07,
-    Books
+    Books,
+    Question
 },
   data() {
     return {

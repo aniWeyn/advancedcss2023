@@ -20,9 +20,9 @@
                   >Course organisation, schedule and assignments</router-link
                 >
               </li>
-              <!--<li>
-                <router-link to="/resources">CSS Resources</router-link>
-              </li>-->
+              <li>
+                <router-link to="/books">CSS Resources</router-link>
+              </li>
             </ol>
             <ol start="3">
               <li>
