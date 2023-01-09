@@ -5,6 +5,7 @@
     <Slide02 />
     <Slide03 />
     <Slide04 />
+    <Task />
     <!--<Slide05 />
     <Slide06 />
     <Slide07 />
@@ -19,6 +20,7 @@ import Slide01 from "@/components/interactionsOnWeb/slide01.vue";
 import Slide02 from "@/components/interactionsOnWeb/slide02.vue";
 import Slide03 from "@/components/interactionsOnWeb/slide03.vue";
 import Slide04 from "@/components/interactionsOnWeb/slide04.vue";
+import Task from "@/components/interactionsOnWeb/task.vue";
 /*import Slide05 from "@/components/interactionsOnWeb/slide05.vue";
 import Slide06 from "@/components/interactionsOnWeb/slide06.vue";
 import Slide07 from "@/components/interactionsOnWeb/slide07.vue";
@@ -33,6 +35,7 @@ export default {
     Slide02,
     Slide03,
     Slide04,
+    Task,
    /* Slide05,
     Slide06,
     Slide07,

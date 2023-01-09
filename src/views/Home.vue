@@ -35,12 +35,6 @@
                   >Interactions on Web</router-link
                 >
               </li>
-              <li>
-                <router-link to="/lecture01"
-                  >Scrollytelling</router-link
-                >
-              </li>
- 
             </ol>
           </div>
         </div>
@@ -51,6 +45,11 @@
           <div class="topics">
             <!--
             <ol start="4">
+                            <li>
+                <router-link to="/lecture01"
+                  >Scrollytelling</router-link
+                >
+              </li>
               <li>
                 <router-link to="/intersectionObserver"
                   >JavaScript - Intersection Observer</router-link
