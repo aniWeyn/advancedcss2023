@@ -60,6 +60,14 @@ const routes = [
       ),
   },
   {
+    path: "/storytelling",
+    name: "Storytelling",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/Storytelling.vue"
+      ),
+  },
+  {
     path: "/books",
     name: "Books",
     component: () =>

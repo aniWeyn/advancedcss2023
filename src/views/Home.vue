@@ -43,30 +43,21 @@
             <h4>January 10, 2023</h4>
           </div>
           <div class="topics">
-            <!--
-            <ol start="4">
-                            <li>
+          
+            <ol start="5">
+                                      <!--  <li>
+                <router-link to="/storytelling"
+                  >Basics of Storytelling</router-link>
+               
+               </li> -->
+                <li>
                 <router-link to="/lecture01"
                   >Scrollytelling</router-link
                 >
               </li>
-              <li>
-                <router-link to="/intersectionObserver"
-                  >JavaScript - Intersection Observer</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/labcodepen"
-                  >Lab: Introduction to CodePen
-                </router-link>
-              </li>
-              <li>
-                <router-link to="/laboratories/laboratory08io"
-                  >Lab: Introduction to Intersection Observer API
-                </router-link>
-              </li>
-            </ol>
-            <ol start="7">
+              </ol>
+
+            <ol start="6">
               <li>
                 <router-link to="/lectures/lecture02"
                   >Architecting CSS</router-link
@@ -83,7 +74,13 @@
                 </router-link>
               </li>
             </ol>
-            <ol start="10">
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>January 11, 2023</h4></div>
+          <div class="topics">
+            <!--
+                          <ol start="12">
               <li>
                 <router-link to="/lectures/lecture08"
                   >CSS Selectors
@@ -109,13 +106,25 @@
                   >Lab: CSS Selectors: pseudo classes - :nth-last-child()
                 </router-link>
               </li>
-            </ol>-->
-          </div>
-        </div>
-        <div class="day">
-          <div class="date"><h4>January 11, 2023</h4></div>
-          <div class="topics">
-            <!--
+            </ol>
+                            <ol start="6">
+              <li>
+                <router-link to="/intersectionObserver"
+                  >JavaScript - Intersection Observer</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/labcodepen"
+                  >Lab: Introduction to CodePen
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/laboratories/laboratory08io"
+                  >Lab: Introduction to Intersection Observer API
+                </router-link>
+              </li>
+            </ol>
+
             <ol start="11">
               <li>
                 <router-link to="/cssshapes">CSS Shapes </router-link>
