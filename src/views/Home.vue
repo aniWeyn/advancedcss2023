@@ -45,11 +45,6 @@
           <div class="topics">
           
             <ol start="5">
-                                      <!--  <li>
-                <router-link to="/storytelling"
-                  >Basics of Storytelling</router-link>
-               
-               </li> -->
                 <li>
                 <router-link to="/lecture01"
                   >Scrollytelling</router-link
@@ -79,7 +74,7 @@
         <div class="day">
           <div class="date"><h4>January 11, 2023</h4></div>
           <div class="topics">
-            <!--
+            
                           <ol start="12">
               <li>
                 <router-link to="/lectures/lecture08"
@@ -91,7 +86,7 @@
                   >Lab: CSS Selectors - Combinators
                 </router-link>
               </li>
-              <li>
+              <!--<li>
                 <router-link to="/laboratories/laboratory07_02"
                   >Lab: CSS Selectors - Attribute Selectors
                 </router-link>
@@ -122,11 +117,11 @@
                 <router-link to="/laboratories/laboratory08io"
                   >Lab: Introduction to Intersection Observer API
                 </router-link>
-              </li>
+              </li>-->
             </ol>
 
             <ol start="11">
-              <li>
+              <!--<li>
                 <router-link to="/cssshapes">CSS Shapes </router-link>
               </li>
               <li>
@@ -156,8 +151,8 @@
               </li>
               <li>
                 <router-link to="/labsharing1">Your work!</router-link>
-              </li>
-            </ol>-->
+              </li>-->
+            </ol>
           </div>
         </div>
         <div class="day">
@@ -202,6 +197,11 @@
           <div class="date"><h4>February 03, 2023</h4></div>
           <div class="topics">
             <!--<ol start="26">
+              <li>
+                <router-link to="/storytelling"
+                  >Basics of Storytelling</router-link>
+               
+               </li>
               <li>
                 <router-link to="designingForAnimation"
                   >Designing for animation
