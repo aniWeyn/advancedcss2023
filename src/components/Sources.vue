@@ -78,7 +78,9 @@ export default {
         { title: "Using and citing sources", href: "https://i.ntnu.no/academic-writing/using-and-citing-sources" },
         { title: "Advice about writing", href: "https://i.ntnu.no/en/academic-writing/writing-tips" },
         { title: "CSS Grid + Media Queries Example", href:"https://mdn.github.io/css-examples/learn/media-queries/grid.html"},
-        { title: "type-scale", href:"https://type-scale.com/"}
+        { title: "type-scale", href:"https://type-scale.com/"},
+        { title: "nth-child-tester", href:"https://css-tricks.com/examples/nth-child-tester/#"},
+        { title: "pseudo-class selector tester", href:"https://lea.verou.me/demos/nth.html"}
       ],
     };
   },
