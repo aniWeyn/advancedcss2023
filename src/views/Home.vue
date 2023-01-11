@@ -86,7 +86,7 @@
                   >Lab: CSS Selectors - Combinators
                 </router-link>
               </li>
-              <!--<li>
+              <li>
                 <router-link to="/laboratories/laboratory07_02"
                   >Lab: CSS Selectors - Attribute Selectors
                 </router-link>
@@ -102,8 +102,8 @@
                 </router-link>
               </li>
             </ol>
-                            <ol start="6">
-              <li>
+                           <ol start="6">
+              <!-- <li>
                 <router-link to="/intersectionObserver"
                   >JavaScript - Intersection Observer</router-link
                 >
