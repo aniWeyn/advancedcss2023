@@ -75,7 +75,7 @@
           <div class="date"><h4>January 11, 2023</h4></div>
           <div class="topics">
             
-                          <ol start="12">
+                          <ol start="9">
               <li>
                 <router-link to="/lectures/lecture08"
                   >CSS Selectors
