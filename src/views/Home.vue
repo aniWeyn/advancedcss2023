@@ -102,8 +102,15 @@
                 </router-link>
               </li>
             </ol>
-                           <ol start="6">
-              <!-- <li>
+
+
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>January 12, 2023</h4></div>
+          <div class="topics">
+            <ol start="14">
+            <li>
                 <router-link to="/intersectionObserver"
                   >JavaScript - Intersection Observer</router-link
                 >
@@ -117,10 +124,14 @@
                 <router-link to="/laboratories/laboratory08io"
                   >Lab: Introduction to Intersection Observer API
                 </router-link>
-              </li>-->
+              </li>
             </ol>
-
-            <ol start="11">
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>January 13, 2023</h4></div>
+          <div class="topics">
+            <ol start="17">
               <!--<li>
                 <router-link to="/cssshapes">CSS Shapes </router-link>
               </li>
@@ -130,7 +141,7 @@
                 >
               </li>
             </ol>
-            <ol start="13">
+            <ol start="19">
               <li>
                 <router-link to="/labintersectionobservercssselectors"
                   >Lab: Intersection Observer + CSS Shapes and
@@ -138,7 +149,7 @@
                 >
               </li>
             </ol>
-            <ol start="14">
+            <ol start="20">
               <li>
                 <router-link to="/transformations"
                   >Transformations
@@ -148,16 +159,8 @@
                 <router-link to="/laboratories/laboratory06b"
                   >Lab: CSS Transform</router-link
                 >
-              </li>
-              <li>
-                <router-link to="/labsharing1">Your work!</router-link>
               </li>-->
             </ol>
-          </div>
-        </div>
-        <div class="day">
-          <div class="date"><h4>January 12, 2023</h4></div>
-          <div class="topics">
             <!--<ol start="20">
               <li><strong>Guest lecture - Felipe Hefler</strong></li>
               <li>
@@ -180,19 +183,15 @@
                 >
               </li>
             </ol>-->
-          </div>
-        </div>
-        <div class="subtitle">
-          <h2>Part 2 - Creative use of CSS</h2>
-        </div>
-        <div class="day">
-          <div class="date"><h4>January 13, 2023</h4></div>
-          <div class="topics">
             <!--<ol start="25">
               <li>Requirements for Assignent 1</li>
             </ol>-->
           </div>
         </div>
+        <div class="subtitle">
+          <h2>Part 2 - Creative use of CSS</h2>
+        </div>
+
         <div class="day">
           <div class="date"><h4>February 03, 2023</h4></div>
           <div class="topics">
