@@ -132,7 +132,7 @@
           <div class="date"><h4>January 13, 2023</h4></div>
           <div class="topics">
             <ol start="17">
-              <!--<li>
+              <li>
                 <router-link to="/cssshapes">CSS Shapes </router-link>
               </li>
               <li>
@@ -142,12 +142,12 @@
               </li>
             </ol>
             <ol start="19">
-              <li>
+            <!--  <li>
                 <router-link to="/labintersectionobservercssselectors"
                   >Lab: Intersection Observer + CSS Shapes and
                   Selectors</router-link
                 >
-              </li>
+              </li>-->
             </ol>
             <ol start="20">
               <li>
@@ -159,10 +159,9 @@
                 <router-link to="/laboratories/laboratory06b"
                   >Lab: CSS Transform</router-link
                 >
-              </li>-->
+              </li>
             </ol>
-            <!--<ol start="20">
-              <li><strong>Guest lecture - Felipe Hefler</strong></li>
+            <ol start="22">
               <li>
                 <router-link to="/transitions">Transitions </router-link>
               </li>
@@ -175,17 +174,14 @@
                 <router-link to="/CSSanimations">Animations </router-link>
               </li>
             </ol>
-            <ol start="24">
-              <li>
+            <ol start="25">
+             <!-- <li>
                 <router-link to="/labintersectionobservercssselectors"
                   >Lab: Intersection Observer + Transformations, Transitions and
                   Animations</router-link
                 >
-              </li>
-            </ol>-->
-            <!--<ol start="25">
-              <li>Requirements for Assignent 1</li>
-            </ol>-->
+              </li>-->
+            </ol>
           </div>
         </div>
         <div class="subtitle">
