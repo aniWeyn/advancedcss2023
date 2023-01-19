@@ -136,18 +136,15 @@
                 <router-link to="/cssshapes">CSS Shapes </router-link>
               </li>
               <li>
-                <router-link to="/laboratories/laboratory06a-tasks"
+                <router-link to="/laboratories/labs_css_shapes"
                   >Lab: CSS Shapes with border-radius</router-link
                 >
               </li>
-            </ol>
-            <ol start="19">
-            <!--  <li>
-                <router-link to="/labintersectionobservercssselectors"
-                  >Lab: Intersection Observer + CSS Shapes and
-                  Selectors</router-link
+              <li>
+                <router-link to="/laboratories/labs_css_shapes_solutions"
+                  >Lab: CSS Shapes with border-radius - solutions</router-link
                 >
-              </li>-->
+              </li>
             </ol>
             <ol start="20">
               <li>

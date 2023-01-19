@@ -268,19 +268,19 @@ const routes = [
       ),
   },
   {
-    path: "/laboratories/laboratory06a",
+    path: "/laboratories/labs_css_shapes_solutions",
     name: "Laboratory06",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory06a.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSShapesSolutions.vue"
       ),
   },
   {
-    path: "/laboratories/laboratory06a-tasks",
-    name: "Laboratory06-Tasks",
+    path: "/laboratories/labs_css_shapes",
+    name: "Labs CSS Shapes",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory6a-tasks.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSShapes.vue"
       ),
   },
   {
