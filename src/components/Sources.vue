@@ -80,7 +80,9 @@ export default {
         { title: "CSS Grid + Media Queries Example", href:"mdn.github.io/css-examples/learn/media-queries/grid.html"},
         { title: "type-scale", href:"type-scale.com/"},
         { title: "nth-child-tester", href:"css-tricks.com/examples/nth-child-tester/#"},
-        { title: "pseudo-class selector tester", href:"lea.verou.me/demos/nth.html"}
+        { title: "pseudo-class selector tester", href:"lea.verou.me/demos/nth.html"},
+        { title: "moderncss", href:"moderncss.dev"},
+        { title: "smolcss", href:"smolcss.dev"}
       ],
     };
   },
