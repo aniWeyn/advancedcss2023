@@ -82,7 +82,9 @@ export default {
         { title: "nth-child-tester", href:"css-tricks.com/examples/nth-child-tester/#"},
         { title: "pseudo-class selector tester", href:"lea.verou.me/demos/nth.html"},
         { title: "moderncss", href:"moderncss.dev"},
-        { title: "smolcss", href:"smolcss.dev"}
+        { title: "smolcss", href:"smolcss.dev"},
+        { title: "jensimmons", href:"jensimmons.com"},
+        
       ],
     };
   },
