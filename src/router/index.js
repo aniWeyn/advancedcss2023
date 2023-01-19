@@ -268,7 +268,7 @@ const routes = [
       ),
   },
   {
-    path: "/laboratories/labs_css_shapes_solutions",
+    path: "/labs_css_shapes_solutions",
     name: "Laboratory06",
     component: () =>
       import(
@@ -276,7 +276,7 @@ const routes = [
       ),
   },
   {
-    path: "/laboratories/labs_css_shapes",
+    path: "/labs_css_shapes",
     name: "Labs CSS Shapes",
     component: () =>
       import(
@@ -284,11 +284,11 @@ const routes = [
       ),
   },
   {
-    path: "/laboratories/laboratory06b",
+    path: "/labs_css_transform",
     name: "Laboratory06",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory06b.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSTransform.vue"
       ),
   },
   {
