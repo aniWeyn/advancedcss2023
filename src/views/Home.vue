@@ -129,7 +129,7 @@
         <div class="day">
           <div class="date"><h4>January 12, 2023</h4></div>
           <div class="topics">
-            <ol start="14">
+            <ol start="18">
             <li>
                 <router-link to="/intersectionObserver"
                   >JavaScript - Intersection Observer</router-link
@@ -151,7 +151,7 @@
         <div class="day">
           <div class="date"><h4>January 13, 2023</h4></div>
           <div class="topics">
-            <ol start="17">
+            <ol start="21">
               <li>
                 <router-link to="/cssshapes">CSS Shapes </router-link>
               </li>
@@ -166,7 +166,7 @@
                 >
               </li>
             </ol>
-            <ol start="20">
+            <ol start="24">
               <li>
                 <router-link to="/transformations"
                   >Transformations
@@ -178,7 +178,7 @@
                 >
               </li>
             </ol>
-            <ol start="22">
+            <ol start="26">
               <li>
                 <router-link to="/transitions">Transitions </router-link>
               </li>
