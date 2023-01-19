@@ -97,8 +97,13 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/laboratories/laboratory07_04"
+                <router-link to="/labs_css_selectors_pseudo_classes_nthlastchild"
                   >Lab: CSS Selectors: pseudo classes - :nth-last-child()
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/labs_css_selectors_pseudo_classes_nthlastchild_solutions"
+                  >Lab: CSS Selectors: pseudo classes - :nth-last-child() - solutions
                 </router-link>
               </li>
             </ol>

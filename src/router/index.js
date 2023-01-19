@@ -356,11 +356,19 @@ const routes = [
       ),
   },
   {
-    path: "/laboratories/laboratory07_04",
+    path: "/labs_css_selectors_pseudo_classes_nthlastchild",
     name: "Laboratory07",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07_04.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectorsPseudoClassesNthLastChild.vue"
+      ),
+  },
+  {
+    path: "/labs_css_selectors_pseudo_classes_nthlastchild_solutions",
+    name: "Laboratory07",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectorsPseudoClassesNthLastChildSolutions.vue"
       ),
   },
   {
