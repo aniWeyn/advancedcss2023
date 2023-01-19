@@ -292,11 +292,11 @@ const routes = [
       ),
   },
   {
-    path: "/laboratories/laboratory06c",
+    path: "/labs_css_transitions",
     name: "Laboratory06",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory06c.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSTransitions.vue"
       ),
   },
   {

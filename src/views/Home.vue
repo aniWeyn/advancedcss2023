@@ -136,12 +136,12 @@
                 <router-link to="/cssshapes">CSS Shapes </router-link>
               </li>
               <li>
-                <router-link to="labs_css_shapes"
+                <router-link to="/labs_css_shapes"
                   >Lab: CSS Shapes with border-radius</router-link
                 >
               </li>
               <li>
-                <router-link to="labs_css_shapes_solutions"
+                <router-link to="/labs_css_shapes_solutions"
                   >Lab: CSS Shapes with border-radius - solutions</router-link
                 >
               </li>
@@ -153,7 +153,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="labs_css_transform"
+                <router-link to="/labs_css_transform"
                   >Lab: CSS Transform</router-link
                 >
               </li>
@@ -163,7 +163,7 @@
                 <router-link to="/transitions">Transitions </router-link>
               </li>
               <li>
-                <router-link to="/laboratories/laboratory06c"
+                <router-link to="/labs_css_transitions"
                   >Lab: CSS Transitions</router-link
                 >
               </li>
