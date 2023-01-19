@@ -82,18 +82,33 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/laboratories/laboratory07"
+                <router-link to="/labs_css_selectors_combinators"
                   >Lab: CSS Selectors - Combinators
                 </router-link>
               </li>
               <li>
-                <router-link to="/laboratories/laboratory07_02"
+                <router-link to="/labs_css_selectors_combinators_solutions"
+                  >Lab: CSS Selectors - Combinators - solutions
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/labs_css_selectors"
                   >Lab: CSS Selectors - Attribute Selectors
                 </router-link>
               </li>
               <li>
-                <router-link to="/laboratories/laboratory07_03"
+                <router-link to="/labs_css_selectors_solutions"
+                  >Lab: CSS Selectors - Attribute Selectors - solutions
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/labs_css_selectors_pseudo_classes_nthchild"
                   >Lab: CSS Selectors: pseudo classes - :nth-child()
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/labs_css_selectors_pseudo_classes_nthchild_solutions"
+                  >Lab: CSS Selectors: pseudo classes - :nth-child() - solutions
                 </router-link>
               </li>
               <li>

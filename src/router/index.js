@@ -300,59 +300,51 @@ const routes = [
       ),
   },
   {
-    path: "/laboratories/laboratory07",
+    path: "/labs_css_selectors_combinators",
     name: "Laboratory07",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectorsCombinators.vue"
       ),
   },
   {
-    path: "/laboratories/laboratory07a",
+    path: "/labs_css_selectors_combinators_solutions",
     name: "Laboratory07",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07a.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectorsCombinatorsSolutions.vue"
       ),
   },
   {
-    path: "/laboratories/laboratory07_02",
+    path: "/labs_css_selectors",
     name: "Laboratory07",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07_02.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectors.vue"
       ),
   },
   {
-    path: "/laboratories/laboratory07_02ab",
+    path: "/labs_css_selectors_solutions",
     name: "Laboratory07",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07_02ab.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectorsSolutions.vue"
       ),
   },
   {
-    path: "/laboratories/laboratory07_02",
+    path: "/labs_css_selectors_pseudo_classes_nthchild",
     name: "Laboratory07",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07_02.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectorsPseudoClassesNthChild.vue"
       ),
   },
   {
-    path: "/laboratories/laboratory07_03",
+    path: "/labs_css_selectors_pseudo_classes_nthchild_solutions",
     name: "Laboratory07",
     component: () =>
       import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07_03.vue"
-      ),
-  },
-  {
-    path: "/laboratories/laboratory07_03ab",
-    name: "Laboratory07",
-    component: () =>
-      import(
-        /* webpackChunkName: "lecture01" */ "../views/laboratories/Laboratory07_03ab.vue"
+        /* webpackChunkName: "lecture01" */ "../views/laboratories/LaboratoryCSSSelectorsPseudoClassesNthChildSolutions.vue"
       ),
   },
   {
