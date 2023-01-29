@@ -259,6 +259,7 @@
         <div class="day">
           <div class="date"><h4>March 02, 2023</h4></div>
           <div class="topics">
+            <ol class="guest"><li>Guest lecture: NRK - <strong>mandatory presence!</strong></li></ol>
             <!--<ol start="32">
               <li>
                 <router-link to="/svg">Introduction to SVG </router-link>
@@ -546,5 +547,10 @@ h2 {
   height: 20px;
   width: 60px;
   animation: 30s ease-out 0s infinite square;
+}
+
+.guest{
+  background-color:#f543236c;
+  list-style-type:none;
 }
 </style>
