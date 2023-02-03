@@ -3,7 +3,7 @@
     <hr />
       <div>
           <p class="space">
-          For each of this transition you should note multiple properties:
+          For each of this transition you should consider multiple properties:
           <ul>
                
                <li>

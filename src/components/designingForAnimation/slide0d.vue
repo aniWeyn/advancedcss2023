@@ -4,7 +4,7 @@
     
       <div>
           <p class="space">
-          We what you make meaningful animations, so you should also convey:
+          To make meaningful animations, you should also convey:
           <ul>
                
                <li>
