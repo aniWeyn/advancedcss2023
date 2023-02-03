@@ -208,7 +208,7 @@
         <div class="day">
           <div class="date"><h4>February 03, 2023</h4></div>
           <div class="topics">
-            <!--<ol start="26">
+            <ol start="29">
               <li>
                 <router-link to="/storytelling"
                   >Basics of Storytelling</router-link>
@@ -219,13 +219,13 @@
                   >Designing for animation
                 </router-link>
               </li>
-              <li>
+              <!--<li>
                 <router-link to="designingforanimationlab"
                   >Lab: Designing for animation
                 </router-link>
-              </li>
+              </li>-->
             </ol>
-            <ol start="28">
+           <!-- <ol start="28">
               <li>
                 <router-link to="accessibility"
                   >Accessibility in CSS (A11y)
@@ -237,6 +237,7 @@
         <div class="day">
           <div class="date"><h4>February 17, 2023</h4></div>
           <div class="topics">
+            <ol class="guest"><li>Guest lecture: Guro Eline Karlsen - Creating stories for games - <strong>mandatory presence!</strong></li></ol>
             <!--<ol start="29">
               <li>
                 Requirements for Assignment 2

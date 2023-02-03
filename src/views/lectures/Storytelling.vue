@@ -1,24 +1,18 @@
 <template>
     <div class="lecture">
       <Intro />
-      <Question />
-      <Slide10 />
       
     </div>
   </template>
   
   <script>
   import Intro from "@/components/storytelling/intro.vue";
-  import Question from "@/components/vocabulary/question.vue";
-  import Slide10 from "@/components/vocabulary/slide01.vue";
   
   
   export default {
     name: "Lecture00",
     components: {
       Intro,
-      Slide10,
-      Question
     },
     data() {
       return {
