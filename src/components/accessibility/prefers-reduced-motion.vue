@@ -13,6 +13,6 @@
 <p>
 <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion">developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion</a>
 </p>
-<p class="action--underscore">Must be implemented for Assignment 2 and Assignment 3</p>
+<p class="action--underscore">Must be implemented for Assignment 3</p>
 </div>
 </template>
