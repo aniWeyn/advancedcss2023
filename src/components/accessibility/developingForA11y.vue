@@ -49,19 +49,5 @@
         > Pa11y</a
       >
     </p>
-    
-    
-   
-    
-
-    
-
-    
-    
-    <h4>Laboratory - review your drafts and ideas</h4>
-    <p>
-      Work further on your concept and review your concept for accessibility
-      issues. Present the conclusions to the class. Remeber that your Assignmnet 2 and Assignment 3 must be a scrollable page with animations.
-    </p>
   </div>
 </template>

@@ -31,15 +31,6 @@
       <a href="https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/">Dos and don'ts on designing for accessibility
       </a></p>
 
-          <p>
-      <a href=" https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf">
-      Dos and don'ts on designing for accessibility - posters
-      </a></p>
-
-    <h4>Laboratory - review your drafts and ideas</h4>
-    <p>
-      Using above tips and previous slide about colorblindness review your first
-      draft of Assignment 2. <br />What can you do to make your ideas more accessible?
-    </p>
+        
   </div>
 </template>
