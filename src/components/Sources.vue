@@ -32,10 +32,33 @@
       <h4>Other tips:</h4>
       <h5><strong>Visual Studio Code Shortcuts</strong></h5>
       <div class="tips">
-        <p><span>edit multiple rows at the same time:</span> <kbd>shift</kbd> + <kbd>option</kbd> + select rows with click</p>
+        <p>
+          <span>edit multiple rows at the same time:</span> <kbd>shift</kbd> +
+          <kbd>option</kbd> + select rows with click
+        </p>
       </div>
       <div class="tips">
-        <p><span>clean code:</span> <kbd>shift</kbd> + <kbd>option</kbd> + <kbd>F</kbd></p>
+        <p>
+          <span>clean code:</span> <kbd>shift</kbd> + <kbd>option</kbd> +
+          <kbd>F</kbd>
+        </p>
+      </div>
+    </section>
+    <section>
+      <h4>Articles:</h4>
+      <div class="link--cssdev">
+        <a
+          href="https://elad.medium.com/why-the-world-needs-css-developers-318025a6f5c1"
+          target="_blank"
+          >Why the world needs CSS Developers?</a
+        >
+      </div>
+      <div class="link--cssdev">
+        <a
+          href="https://www.toptal.com/css/why-you-need-a-css-developer"
+          target="_blank"
+          >Why you need a CSS Developer?</a
+        >
       </div>
     </section>
   </div>
@@ -179,26 +202,35 @@ export default {
   justify-content: center;
 }
 
-.tips{
+.tips {
   background-color: white;
   padding: 40px;
   margin-bottom: 10px;
   width: fit-content;
 }
 
-.tips span{
+.tips span {
   font-weight: 600;
 }
 
-kbd{
+kbd {
   border: black;
-    background-color: rgb(215, 215, 215);
-    border-radius: 3px;
-    display: inline-block;
-    line-height: 1.5;
-    margin: 0 0.1em;
-    overflow-wrap: break-word;
-    padding: 0.1em 0.6em;
-    text-shadow: 0 1px 0 white;
+  background-color: rgb(215, 215, 215);
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  margin: 0 0.1em;
+  overflow-wrap: break-word;
+  padding: 0.1em 0.6em;
+  text-shadow: 0 1px 0 white;
+}
+
+.link--cssdev{
+  font-size: 140%;
+  padding-bottom: 40px;
+}
+
+.link--cssdev:first-of-type{
+  padding-top: 20px;
 }
 </style>
