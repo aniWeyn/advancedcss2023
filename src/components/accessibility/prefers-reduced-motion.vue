@@ -33,6 +33,21 @@
         >developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion</a
       >
     </p>
+    <p>
+      <a
+        target="blank"
+        href=" https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/accessibility/reduced-motion-simulation"
+      >
+        https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/accessibility/reduced-motion-simulation</a
+      >
+    </p>
+    <p>
+      <a
+        target="blank"
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#user_preferences"
+        >https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#user_preferences</a
+      >
+    </p>
     <p class="action--underscore">Must be implemented for Assignment 3</p>
   </div>
 </template>
