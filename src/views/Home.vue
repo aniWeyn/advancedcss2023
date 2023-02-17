@@ -225,25 +225,26 @@
                 </router-link>
               </li>-->
             </ol>
-           <!-- <ol start="28">
-              <li>
-                <router-link to="accessibility"
-                  >Accessibility in CSS (A11y)
-                </router-link>
-              </li>
-            </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>February 17, 2023</h4></div>
           <div class="topics">
-            <ol class="guest"><li>Guest lecture: Guro Eline Karlsen - Creating stories for games - <strong>mandatory presence!</strong></li></ol>
-            <!--<ol start="29">
+            <ol start="31">
               <li>
-                Requirements for Assignment 2
+                <a href="https://classroom.github.com/a/lvcDt0Hy" _target="_blank">Lab: Git & GitHub Fundamentals</a>
+              </li>
+              <li>
+                <a href="https://classroom.github.com/a/5vOw9tDF" _target="_blank">Lab: SASS Compilation Check</a>
+              </li>
+              <li>
+                <a href="https://classroom.github.com/a/mPMew-B1" _target="_blank">Lab: Skip-to-main link</a>
+              </li>
+              <li>
+                <a href="https://classroom.github.com/a/phu2sF5t" _target="_blank">Lab: reduce-motion</a>
               </li>
             </ol>
-            <ol start="30">
+            <ol start="35">
               <li>
                 <router-link to="/laboratories/laboratory01"
                   >Lab: Visual Studio Code</router-link
@@ -254,13 +255,26 @@
                   >Lab: SASS... what was that?</router-link
                 >
               </li>
-            </ol>-->
+            </ol>
+            <ol start="37">
+              <li>
+                Requirements for Assignment 2
+              </li>
+            </ol>
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>March 02, 2023</h4></div>
           <div class="topics">
+            <ol class="guest"><li>Guest lecture: Guro Eline Karlsen - Creating stories for games - <strong>mandatory presence!</strong></li></ol>
             <ol class="guest"><li>Guest lecture: NRK - <strong>mandatory presence!</strong></li></ol>
+            <!--<ol start="31">
+              <li>
+                <router-link to="accessibility"
+                  >Accessibility in CSS (A11y)
+                </router-link>
+              </li>
+            </ol>-->
             <!--<ol start="32">
               <li>
                 <router-link to="/svg">Introduction to SVG </router-link>
@@ -270,9 +284,6 @@
                   >Lab: Drawing basic SVG shapes
                 </router-link>
               </li>
-            </ol>
-            <ol start="34">
-              <li>Guest Lecture: Moderninzing UI on Enterprise level</li>
             </ol>
             <ol start="35">
               <li>

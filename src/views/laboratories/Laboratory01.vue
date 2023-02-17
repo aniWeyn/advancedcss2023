@@ -68,8 +68,7 @@
           >How To Use GitHub with VS Code in 2020</a
         >
       </li>
-    </ul>
-    <h4>With your group:</h4>
+    </ul>    <h4>With your group:</h4>
     <ul>
       <li>
         Prepare friendly name of your group
