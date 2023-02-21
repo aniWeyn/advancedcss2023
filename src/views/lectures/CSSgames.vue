@@ -7,7 +7,7 @@
       </h2>
     </div>
     <div class="slide">
-        <h3>Examples</h3>
+      <h3>Examples</h3>
       <iframe
         height="600"
         style="width: 100%;"
@@ -179,7 +179,7 @@
         style="width: 100%;"
         scrolling="no"
         title="Zero lines JS game"
-        src="https://codepen.io/i0z/embed/AwYbda?default-tab=result"
+        src="https://codepen.io/i0z/embed/preview/AwYbda?default-tab=result"
         frameborder="no"
         loading="lazy"
         allowtransparency="true"
@@ -210,9 +210,6 @@
         >) on <a href="https://codepen.io">CodePen</a>.
       </iframe>
 
-
-
-
       <iframe
         height="600"
         style="width: 100%;"
@@ -232,7 +229,6 @@
           >@deeptoaster</a
         >) on <a href="https://codepen.io">CodePen</a>.
       </iframe>
-
     </div>
     <div class="slide">
       <h3>Inspirations</h3>
@@ -284,8 +280,6 @@
           >War (card_game)</a
         >
       </p>
-
-      
     </div>
   </div>
 </template>
