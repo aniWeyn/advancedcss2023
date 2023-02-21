@@ -68,6 +68,14 @@ const routes = [
       ),
   },
   {
+    path: "/cssgames",
+    name: "CSS Games",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/CSSgames.vue"
+      ),
+  },
+  {
     path: "/books",
     name: "Books",
     component: () =>
