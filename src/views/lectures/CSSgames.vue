@@ -278,6 +278,14 @@
           >Sleeping Lions</a
         >
       </p>
+
+      <p>
+        <a href="https://en.wikipedia.org/wiki/War_(card_game)" target="_blank"
+          >War (card_game)</a
+        >
+      </p>
+
+      
     </div>
   </div>
 </template>
