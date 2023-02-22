@@ -1,6 +1,8 @@
 <template>
-  <div class="link2">
-    <a target="_blank" :href="`https://${href}`"> {{ title }}</a>
+  <div>
+    <a target="_blank" :href="`https://${href}`"
+      ><div class="link2">{{ title }}</div></a
+    >
   </div>
 </template>
 
@@ -16,15 +18,24 @@ export default {
 
 <style scoped>
 .link2 {
-  width: 100px;
-  height: 100px;
   padding: 60px;
   background-color: #2c3e50;
   color: white;
   margin: 2px;
+  transition: background-color 1s;
 }
 
-.link2 > a {
-  color: white;
+.link2:nth-of-type(even) {
+  background-color: pink;
 }
+
+.link2:hover {
+  background-color: #2c3e50c3;
+}
+
+.resources a {
+  color: white;
+  text-decoration: none;
+}
+
 </style>

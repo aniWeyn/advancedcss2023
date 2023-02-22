@@ -1,27 +1,22 @@
 <template>
   <div>
     <section class="course_info">
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://www.ntnu.edu/studies/courses/IDG1293#tab=omEmnet"
-          >Course Description</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://www.ntnu.edu/studies/courses/IDG1293#tab=timeplan"
-          >Timeplan</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          href="https://www.ntnu.no/studier/bwu/studiets-oppbygging#year=2022&programmeCode=BWU"
-          >Webutvikling – Studiets oppbygging</a
-        >
-      </div>
+      <a
+        target="_blank"
+        href="https://www.ntnu.edu/studies/courses/IDG1293#tab=omEmnet"
+        ><div class="link">Course Description</div></a
+      >
+      <a
+        target="_blank"
+        href="https://www.ntnu.edu/studies/courses/IDG1293#tab=timeplan"
+        ><div class="link">Timeplan</div></a
+      >
+
+      <a
+        target="_blank"
+        href="https://www.ntnu.no/studier/bwu/studiets-oppbygging#year=2022&programmeCode=BWU"
+        ><div class="link">Webutvikling – Studiets oppbygging</div></a
+      >
     </section>
     <section class="resources">
       <div v-for="(link, index) in links" v-bind:key="index">
@@ -178,10 +173,17 @@ export default {
   padding: 60px;
   background-color: #2c3e50;
   color: white;
+  transition: text-decoration-style 1s;
 }
 
-.link > a {
+.course_info a{
   color: white;
+}
+
+.course_info a:hover{
+  color: white;
+  text-decoration-style: dashed;
+  text-decoration-color: white;
 }
 
 .course_info {
@@ -225,12 +227,12 @@ kbd {
   text-shadow: 0 1px 0 white;
 }
 
-.link--cssdev{
+.link--cssdev {
   font-size: 140%;
   padding-bottom: 40px;
 }
 
-.link--cssdev:first-of-type{
+.link--cssdev:first-of-type {
   padding-top: 20px;
 }
 </style>

@@ -264,6 +264,16 @@
           </div>
         </div>
         <div class="day">
+          <div class="date group_work"><h4>February 24, 2023</h4></div>
+          <div class="topics">
+            <ul class="guest groupwork">
+              <li>
+               Lab: Group Work with Teaching Assistant 
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="day">
           <div class="date"><h4>March 02, 2023</h4></div>
           <div class="topics">
             <ol class="guest"><li>Guest lecture: Guro Eline Karlsen - Creating stories for games - <strong>mandatory presence!</strong></li></ol>
@@ -312,6 +322,16 @@
                 Requirements for Assignment 3
               </li>
             </ol>-->
+          </div>
+        </div>
+        <div class="day">
+          <div class="date group_work"><h4>February 24, 2023</h4></div>
+          <div class="topics">
+            <ul class="guest groupwork">
+              <li>
+               Lab: Group Work with Teaching Assistant 
+              </li>
+            </ul>
           </div>
         </div>
         <div class="day">
@@ -372,6 +392,16 @@
                 Prepresentations of Assignmnet 3 within groups
               </li>
             </ol>-->
+          </div>
+        </div>
+        <div class="day">
+          <div class="date group_work"><h4>February 24, 2023</h4></div>
+          <div class="topics">
+            <ul class="guest groupwork">
+              <li>
+               Lab: Group Work with Teaching Assistant 
+              </li>
+            </ul>
           </div>
         </div>
         <div class="day">
@@ -545,6 +575,10 @@ h2 {
   color: #f54123;
 }
 
+.group_work > h4{
+  color: #2c3e50;
+}
+
 @keyframes square {
   0% {
     transform: translateY(0vh);
@@ -564,5 +598,9 @@ h2 {
 .guest{
   background-color:#f543236c;
   list-style-type:none;
+}
+
+.groupwork{
+  background-color:#2c3e501a;
 }
 </style>
