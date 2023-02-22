@@ -173,7 +173,7 @@ export default {
   padding: 60px;
   background-color: #2c3e50;
   color: white;
-  transition: text-decoration-style 1s;
+  transition: text-decoration-style 1s, background-color 1s;
 }
 
 .course_info a{
@@ -184,6 +184,11 @@ export default {
   color: white;
   text-decoration-style: dashed;
   text-decoration-color: white;
+
+}
+
+.link:hover{
+  background-color: #2c3e50c3;
 }
 
 .course_info {

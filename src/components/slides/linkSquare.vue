@@ -25,10 +25,6 @@ export default {
   transition: background-color 1s;
 }
 
-.link2:nth-of-type(even) {
-  background-color: pink;
-}
-
 .link2:hover {
   background-color: #2c3e50c3;
 }
@@ -37,5 +33,4 @@ export default {
   color: white;
   text-decoration: none;
 }
-
 </style>
