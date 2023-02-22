@@ -76,6 +76,14 @@ const routes = [
       ),
   },
   {
+    path: "/a01feedback",
+    name: "Assignment 01 Feedback",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/Assignment01Feedback.vue"
+      ),
+  },
+  {
     path: "/books",
     name: "Books",
     component: () =>
