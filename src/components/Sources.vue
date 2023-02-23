@@ -174,6 +174,7 @@ export default {
   background-color: #2c3e50;
   color: white;
   transition: text-decoration-style 1s, background-color 1s;
+  border-inline-start: 5px white dotted;
 }
 
 .course_info a{
@@ -184,7 +185,6 @@ export default {
   color: white;
   text-decoration-style: dashed;
   text-decoration-color: white;
-
 }
 
 .link:hover{
