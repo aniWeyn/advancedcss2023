@@ -170,6 +170,10 @@ export default {
           title: "JPNG.svg, JPNG optimization",
           href: "codepen.io/shshaw/full/LVKEdv",
         },
+        {
+          title: "SVG manipulate paths",
+          href: "https://codepen.io/netsi1964/pen/pJzWoz",
+        },
       ],
     };
   },
