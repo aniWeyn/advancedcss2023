@@ -3,6 +3,21 @@
     <Slide00 title="Scalable Vector Graphics - SVG" />
     <div class="slide">
       <hr />
+      <h3>Why use it?</h3>
+      <ul>
+        <li>
+          It scales! You deliver only one asset and it works well for variety of
+          screens!
+        </li>
+        <li>It's vector! Looks good on small and big sceens!</li>
+        <li>No need for HTTP request, you can add it inline</li>
+        <li>Can have small filesize if you will optimize it</li>
+        <li>Easy to animate (has navigatable DOM)</li>
+        <li>Easy to make accessible</li>
+      </ul>
+    </div>
+    <div class="slide">
+      <hr />
       <h3>Scalable Vector Graphics (SVG)</h3>
       <p>
         Scalable Vector Graphics (SVG) are an
@@ -32,6 +47,16 @@
         easily localized by updating the text within them, without the need of a
         graphical editor to do so. With proper libraries, SVG files can even be
         localized on-the-fly.
+      </p>
+    </div>
+    <div class="slide">
+      <hr />
+      <h3>Browser Support</h3>
+      <a href="https://caniuse.com/svg" target="_blank"
+        >https://caniuse.com/svg</a
+      >
+      <p>
+        SVG is well supported through all of the browsers, even mobile ones.
       </p>
     </div>
     <div class="slide">
