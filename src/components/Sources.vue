@@ -162,7 +162,14 @@ export default {
         { title: "jensimmons", href: "jensimmons.com" },
         { title: "icons8.com", href: "icons8.com" },
         { title: "color.adobe", href: "color.adobe.com/explore" },
-        { title: "GSAP 3 on CodePen", href: "https://codepen.io/GreenSock/full/OPqpRJ"}
+        {
+          title: "GSAP 3 on CodePen",
+          href: "codepen.io/GreenSock/full/OPqpRJ",
+        },
+        {
+          title: "JPNG.svg, JPNG optimization",
+          href: "codepen.io/shshaw/full/LVKEdv",
+        },
       ],
     };
   },
