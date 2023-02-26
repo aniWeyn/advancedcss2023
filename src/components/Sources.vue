@@ -182,6 +182,9 @@ export default {
           title: "SVG Path Builder",
           href: "codepen.io/anthonydugois/full/mewdyZ",
         },
+        {
+          title: "Animated Bézier Curves", href:"jasondavies.com/animated-bezier/"
+        }
       ],
     };
   },
