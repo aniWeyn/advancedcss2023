@@ -37,6 +37,12 @@
       src="../../assets/images/codepen_setup_for_scss.png"
       alt="CodePen"
     />
+    <h4>Debugging CodePen</h4>
+    <h5>Codopen extension</h5>
+    <p>https://codepen.io/AniWeyn/<strong>pen</strong>/yLxJodw</p>
+    <p>https://cdpn.io/pen/<strong>debug</strong>/yLxJodw</p>
+    <a href="https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak" target="_blank">https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak</a>
+
   </div>
 </template>
 
