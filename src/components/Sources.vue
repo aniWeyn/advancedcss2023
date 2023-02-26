@@ -172,7 +172,15 @@ export default {
         },
         {
           title: "SVG manipulate paths",
-          href: "https://codepen.io/netsi1964/pen/pJzWoz",
+          href: "codepen.io/netsi1964/pen/pJzWoz",
+        },
+        {
+          title: "SVG Tutorial",
+          href: "developer.mozilla.org/en-US/docs/Web/SVG/Tutorial",
+        },
+        {
+          title: "SVG Path Builder",
+          href: "codepen.io/anthonydugois/full/mewdyZ",
         },
       ],
     };
