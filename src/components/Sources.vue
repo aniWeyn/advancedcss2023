@@ -160,6 +160,9 @@ export default {
         { title: "moderncss", href: "moderncss.dev" },
         { title: "smolcss", href: "smolcss.dev" },
         { title: "jensimmons", href: "jensimmons.com" },
+        { title: "icons8.com", href: "icons8.com" },
+        { title: "color.adobe", href: "color.adobe.com/explore" },
+        { title: "GSAP 3 on CodePen", href: "https://codepen.io/GreenSock/full/OPqpRJ"}
       ],
     };
   },
@@ -177,17 +180,17 @@ export default {
   border-inline-start: 5px white dotted;
 }
 
-.course_info a{
+.course_info a {
   color: white;
 }
 
-.course_info a:hover{
+.course_info a:hover {
   color: white;
   text-decoration-style: dashed;
   text-decoration-color: white;
 }
 
-.link:hover{
+.link:hover {
   background-color: #2c3e50c3;
 }
 
