@@ -163,10 +163,6 @@ export default {
         { title: "icons8.com", href: "icons8.com" },
         { title: "color.adobe", href: "color.adobe.com/explore" },
         {
-          title: "GSAP 3 on CodePen",
-          href: "codepen.io/GreenSock/full/OPqpRJ",
-        },
-        {
           title: "JPNG.svg, JPNG optimization",
           href: "codepen.io/shshaw/full/LVKEdv",
         },
@@ -184,6 +180,13 @@ export default {
         },
         {
           title: "Animated Bézier Curves", href:"jasondavies.com/animated-bezier/"
+        },
+        {
+          title: "GSAP 3 on CodePen",
+          href: "codepen.io/GreenSock/full/OPqpRJ",
+        },
+        {
+          title: "Using CSS animations", href:"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
         }
       ],
     };
