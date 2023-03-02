@@ -186,10 +186,13 @@ export default {
           href: "codepen.io/GreenSock/full/OPqpRJ",
         },
         {
-          title: "Using CSS animations", href:"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
+          title: "Using CSS animations", href:"developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
         },
         {
-          title:"Matter.js, 2D physics engine", href:"https://brm.io/matter-js/"
+          title:"Matter.js, 2D physics engine", href:"brm.io/matter-js/"
+        },
+        {
+          title:"vecteezy.com, free-vector", href:"www.vecteezy.com/free-vector"
         }
       ],
     };
