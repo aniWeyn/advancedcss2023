@@ -309,6 +309,16 @@
                 >
               </li>
             </ol>
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>March 03, 2023</h4></div>
+          <div class="topics">
+            <ol start="39">
+              <li>
+                <router-link to="/a01feedback">Assignment 1 - common mistakes </router-link>
+              </li>
+            </ol>
             <!--
             <ol start="39">
               <li>
@@ -330,11 +340,6 @@
                 </router-link>
               </li>
             </ol>-->
-          </div>
-        </div>
-        <div class="day">
-          <div class="date"><h4>March 03, 2023</h4></div>
-          <div class="topics">
            <!-- <ol start="43">
               <li>
                 <router-link to="/svg">Introduction to SVG </router-link>

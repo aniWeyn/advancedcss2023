@@ -2,7 +2,7 @@
   <div class="lecture">
     <div class="slide">
       <hr />
-      <h3>CodePen</h3>
+      <h3>CodePen Mistakes</h3>
       <h5>Sending code with errors</h5>
       <p>Examples:</p>
       <ul>
@@ -57,7 +57,7 @@
       </ul>
       <h5>...</h5>
       <iframe
-        height="300"
+        height="900"
         style="width: 100%;"
         scrolling="no"
         title="Mistakes 1"
