@@ -43,14 +43,11 @@
             <h4>January 10, 2023</h4>
           </div>
           <div class="topics">
-          
             <ol start="5">
-                <li>
-                <router-link to="/lecture01"
-                  >Scrollytelling</router-link
-                >
+              <li>
+                <router-link to="/lecture01">Scrollytelling</router-link>
               </li>
-              </ol>
+            </ol>
 
             <ol start="6">
               <li>
@@ -74,8 +71,7 @@
         <div class="day">
           <div class="date"><h4>January 11, 2023</h4></div>
           <div class="topics">
-            
-                          <ol start="9">
+            <ol start="9">
               <li>
                 <router-link to="/lectures/lecture08"
                   >CSS Selectors
@@ -107,30 +103,32 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/labs_css_selectors_pseudo_classes_nthchild_solutions"
+                <router-link
+                  to="/labs_css_selectors_pseudo_classes_nthchild_solutions"
                   >Lab: CSS Selectors: pseudo classes - :nth-child() - solutions
                 </router-link>
               </li>
               <li>
-                <router-link to="/labs_css_selectors_pseudo_classes_nthlastchild"
+                <router-link
+                  to="/labs_css_selectors_pseudo_classes_nthlastchild"
                   >Lab: CSS Selectors: pseudo classes - :nth-last-child()
                 </router-link>
               </li>
               <li>
-                <router-link to="/labs_css_selectors_pseudo_classes_nthlastchild_solutions"
-                  >Lab: CSS Selectors: pseudo classes - :nth-last-child() - solutions
+                <router-link
+                  to="/labs_css_selectors_pseudo_classes_nthlastchild_solutions"
+                  >Lab: CSS Selectors: pseudo classes - :nth-last-child() -
+                  solutions
                 </router-link>
               </li>
             </ol>
-
-
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>January 12, 2023</h4></div>
           <div class="topics">
             <ol start="18">
-            <li>
+              <li>
                 <router-link to="/intersectionObserver"
                   >JavaScript - Intersection Observer</router-link
                 >
@@ -192,7 +190,7 @@
               </li>
             </ol>
             <ol start="25">
-             <!-- <li>
+              <!-- <li>
                 <router-link to="/labintersectionobservercssselectors"
                   >Lab: Intersection Observer + Transformations, Transitions and
                   Animations</router-link
@@ -211,9 +209,9 @@
             <ol start="29">
               <li>
                 <router-link to="/storytelling"
-                  >Basics of Storytelling</router-link>
-               
-               </li>
+                  >Basics of Storytelling</router-link
+                >
+              </li>
               <li>
                 <router-link to="designingForAnimation"
                   >Designing for animation
@@ -232,16 +230,32 @@
           <div class="topics">
             <ol start="31">
               <li>
-                <a href="https://classroom.github.com/a/lvcDt0Hy" _target="_blank">Lab: Git & GitHub Fundamentals</a>
+                <a
+                  href="https://classroom.github.com/a/lvcDt0Hy"
+                  _target="_blank"
+                  >Lab: Git & GitHub Fundamentals</a
+                >
               </li>
               <li>
-                <a href="https://classroom.github.com/a/5vOw9tDF" _target="_blank">Lab: SASS Compilation Check</a>
+                <a
+                  href="https://classroom.github.com/a/5vOw9tDF"
+                  _target="_blank"
+                  >Lab: SASS Compilation Check</a
+                >
               </li>
               <li>
-                <a href="https://classroom.github.com/a/mPMew-B1" _target="_blank">Lab: Skip-to-main link</a>
+                <a
+                  href="https://classroom.github.com/a/mPMew-B1"
+                  _target="_blank"
+                  >Lab: Skip-to-main link</a
+                >
               </li>
               <li>
-                <a href="https://classroom.github.com/a/phu2sF5t" _target="_blank">Lab: reduce-motion</a>
+                <a
+                  href="https://classroom.github.com/a/phu2sF5t"
+                  _target="_blank"
+                  >Lab: reduce-motion</a
+                >
               </li>
             </ol>
             <ol start="35">
@@ -268,7 +282,7 @@
           <div class="topics">
             <ul class="guest groupwork">
               <li>
-               Lab: Group Work with Teaching Assistant 
+                Lab: Group Work with Teaching Assistant
               </li>
             </ul>
           </div>
@@ -276,16 +290,52 @@
         <div class="day">
           <div class="date"><h4>March 02, 2023</h4></div>
           <div class="topics">
-            <ol class="guest"><li>Guest lecture: Guro Eline Karlsen - Creating stories for games - <strong>mandatory presence!</strong></li></ol>
-            <ol class="guest"><li>Guest lecture: NRK - <strong>mandatory presence!</strong></li></ol>
-            <!--<ol start="31">
+            <ol class="guest">
               <li>
-                <router-link to="accessibility"
-                  >Accessibility in CSS (A11y)
+                Guest lecture: NRK - Storytelling on web by NRK
+                <strong>mandatory presence!</strong>
+              </li>
+            </ol>
+            <ol class="guest">
+              <li>
+                Guest lecture: Guro Eline Karlsen - Creating stories for games -
+                <strong>mandatory presence!</strong>
+              </li>
+            </ol>
+            <ol start="38">
+              <li>
+                <router-link to="/keyframesCSSVariables"
+                  >Lab: Keyframes + CSS Variables</router-link
+                >
+              </li>
+            </ol>
+            <!--
+            <ol start="39">
+              <li>
+                <router-link to="/cssUnits">CSS Units </router-link>
+              </li>
+            </ol>
+            <ol start="40">
+              <li>
+                <router-link to="/flexGrid">Flexbox and CSS Grid </router-link>
+              </li>
+              <li>
+                <router-link to="/laboratories/laboratory09flex"
+                  >Lab: Flexbox
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/laboratories/laboratory09grid"
+                  >Lab: CSS Grid
                 </router-link>
               </li>
             </ol>-->
-            <!--<ol start="32">
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>March 03, 2023</h4></div>
+          <div class="topics">
+           <!-- <ol start="43">
               <li>
                 <router-link to="/svg">Introduction to SVG </router-link>
               </li>
@@ -295,7 +345,7 @@
                 </router-link>
               </li>
             </ol>
-            <ol start="35">
+            <ol start="45">
               <li>
                 <router-link to="/svgAnimationSMIL">Animating SVG</router-link>
               </li>
@@ -305,31 +355,31 @@
                 >
               </li>
             </ol>
-            <ol start="37">
+            <ol start="47">
               <li>
-                <router-link to="/keyframesCSSVariables"
-                  >Lab: Keyframes + CSS Variables</router-link
-                >
+                <router-link to="accessibility"
+                  >Accessibility in CSS (A11y)
+                </router-link>
               </li>
             </ol>-->
           </div>
         </div>
         <div class="day">
-          <div class="date"><h4>March 03, 2023</h4></div>
-          <div class="topics">
-           <!-- <ol start="38">
-              <li>
-                Requirements for Assignment 3
-              </li>
-            </ol>-->
-          </div>
-        </div>
-        <div class="day">
-          <div class="date group_work"><h4>February 24, 2023</h4></div>
+          <div class="date group_work"><h4>March 10, 2023</h4></div>
           <div class="topics">
             <ul class="guest groupwork">
               <li>
-               Lab: Group Work with Teaching Assistant 
+                Lab: Group Work with Teaching Assistant
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="day">
+          <div class="date group_work"><h4>March 31, 2023</h4></div>
+          <div class="topics">
+            <ul class="guest groupwork">
+              <li>
+                Lab: Group Work with Teaching Assistant
               </li>
             </ul>
           </div>
@@ -367,25 +417,6 @@
                 </router-link>
               </li>
             </ol>
-            <ol start="43">
-              <li>
-                <router-link to="/cssUnits">CSS Units </router-link>
-              </li>
-            </ol>
-            <ol start="44">
-              <li>
-                <router-link to="/flexGrid">Flexbox and CSS Grid </router-link>
-              </li>
-              <li>
-                <router-link to="/laboratories/laboratory09flex"
-                  >Lab: Flexbox
-                </router-link>
-              </li>
-              <li>
-                <router-link to="/laboratories/laboratory09grid"
-                  >Lab: CSS Grid
-                </router-link>
-              </li>
             </ol>
             <ol start="47">
               <li>
@@ -395,11 +426,11 @@
           </div>
         </div>
         <div class="day">
-          <div class="date group_work"><h4>February 24, 2023</h4></div>
+          <div class="date group_work"><h4>April 28, 2023</h4></div>
           <div class="topics">
             <ul class="guest groupwork">
               <li>
-               Lab: Group Work with Teaching Assistant 
+                Lab: Group Work with Teaching Assistant
               </li>
             </ul>
           </div>
@@ -420,13 +451,13 @@
                   Performance (lazy loading, core web vitals)
                 </router-link>
               </li>-->
-              <!--
+            <!--
         <li>
           <router-link to="/laboratories/laboratory08">
           Lab: Lazy Loading
           </router-link>
         </li>-->
-           <!-- </ol>
+            <!-- </ol>
             <ol start="50">
               <li>
                 <router-link to="/lectures/lecture09">
@@ -516,20 +547,20 @@ hr {
   }
   90% {
     opacity: 0.1;
-  } 
+  }
   100% {
     opacity: 1;
   }
 }
 
 @media screen and (min-width: 40em) {
-.title {
-  padding-top: 20vh;
-  margin-bottom: 30px;
-  font-size: 10rem;
-  font-weight: 900;
-  animation: 2s ease-out 0s 1 welcome;
-}
+  .title {
+    padding-top: 20vh;
+    margin-bottom: 30px;
+    font-size: 10rem;
+    font-weight: 900;
+    animation: 2s ease-out 0s 1 welcome;
+  }
 }
 
 .list a {
@@ -575,7 +606,7 @@ h2 {
   color: #f54123;
 }
 
-.group_work > h4{
+.group_work > h4 {
   color: #2c3e50;
 }
 
@@ -595,12 +626,12 @@ h2 {
   animation: 30s ease-out 0s infinite square;
 }
 
-.guest{
-  background-color:#f543236c;
-  list-style-type:none;
+.guest {
+  background-color: #f543236c;
+  list-style-type: none;
 }
 
-.groupwork{
-  background-color:#2c3e501a;
+.groupwork {
+  background-color: #2c3e501a;
 }
 </style>
