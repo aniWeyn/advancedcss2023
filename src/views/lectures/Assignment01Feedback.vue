@@ -90,6 +90,13 @@
           >Using CSS custom properties: values in javascript</a
         >
       </p>
+      <p>
+        <a
+          href="https://css-tricks.com/updating-a-css-variable-with-javascript/"
+          target="_blank"
+          >Updating a CSS Variable with JavaScript</a
+        >
+      </p>
     </div>
     <div class="slide">
       <hr />

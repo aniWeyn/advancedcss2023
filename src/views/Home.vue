@@ -316,11 +316,26 @@
           <div class="topics">
             <ol start="39">
               <li>
-                <router-link to="/a01feedback">Assignment 1 - common mistakes </router-link>
+                <router-link to="/a01feedback">Lab: Assignment 1 - common mistakes </router-link>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>March 10, 2023</h4></div>
+          <div class="topics">
+            <ol start="40">
+              <li>
+                <a href="https://github.com/aniWeyn/svg" target="_blank">Lab: Introduction to SVG</a>
               </li>
             </ol>
             <!--
-            <ol start="39">
+            <ul class="guest groupwork">
+              <li>
+                Lab: Group Work with Teaching Assistant
+              </li>
+            </ul>
+            <ol start="40">
               <li>
                 <router-link to="/cssUnits">CSS Units </router-link>
               </li>
@@ -339,8 +354,8 @@
                   >Lab: CSS Grid
                 </router-link>
               </li>
-            </ol>-->
-           <!-- <ol start="43">
+            </ol>
+            <ol start="43">
               <li>
                 <router-link to="/svg">Introduction to SVG </router-link>
               </li>
@@ -370,13 +385,9 @@
           </div>
         </div>
         <div class="day">
-          <div class="date group_work"><h4>March 10, 2023</h4></div>
+          <div class="date"><h4>March 17, 2023</h4></div>
           <div class="topics">
-            <ul class="guest groupwork">
-              <li>
-                Lab: Group Work with Teaching Assistant
-              </li>
-            </ul>
+
           </div>
         </div>
         <div class="day">
