@@ -61,6 +61,30 @@
     </div>
     <div class="slide">
       <hr />
+      <h3>Shapes</h3>
+    </div>
+    <div class="slide">
+      <hr />
+      <h3>Viewbox</h3>
+    </div>
+    <div class="slide">
+      <hr />
+      <h3>preserveAspectRatio</h3>
+    </div>
+    <div class="slide">
+      <hr />
+      <h3>Paths, Groups & Polylines</h3>
+    </div>
+    <div class="slide">
+      <hr/>
+      <h3>Animated Bezier Curves & Template Literals</h3>
+    </div>
+    <div class="slide">
+      <hr/>
+      <h3>Accessibility</h3>
+    </div>
+    <div class="slide">
+      <hr />
       <h3>Good sources about SVG</h3>
       <p>
         <a
