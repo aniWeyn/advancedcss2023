@@ -316,7 +316,9 @@
           <div class="topics">
             <ol start="39">
               <li>
-                <router-link to="/a01feedback">Lab: Assignment 1 - common mistakes </router-link>
+                <router-link to="/a01feedback"
+                  >Lab: Assignment 1 - common mistakes
+                </router-link>
               </li>
             </ol>
           </div>
@@ -326,20 +328,49 @@
           <div class="topics">
             <ol start="40">
               <li>
-                <a href="https://github.com/aniWeyn/svg" target="_blank">Lab: Introduction to SVG</a>
+                <a href="https://github.com/aniWeyn/svg" target="_blank"
+                  >Lab: Introduction to SVG</a
+                >
               </li>
             </ol>
-            <!--
-            <ul class="guest groupwork">
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>March 17, 2023</h4></div>
+          <div class="topics">
+            <ol start="41">
               <li>
-                Lab: Group Work with Teaching Assistant
+                <router-link to="/svg">Introduction to SVG </router-link>
               </li>
-            </ul>
-            <ol start="40">
+            </ol>
+            <ol start="42">
+              <li>
+                <router-link to="/svgAnimationSMIL"
+                  >Animating SVG with SMILE</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/laboratories/laboratory05"
+                  >Lab: Animating SVG with SMILE</router-link
+                >
+              </li>
+            </ol>
+            <ol start="44">
+              <li>
+                <router-link to="/">Lab: Animating SVG with GSAP</router-link>
+              </li>
+            </ol>
+            <ol start="45">
+              <li>
+                <router-link to="/cssgames">CSS Games</router-link>
+              </li>
+            </ol>
+            <ol start="46">
               <li>
                 <router-link to="/cssUnits">CSS Units </router-link>
               </li>
             </ol>
+            <!--
             <ol start="40">
               <li>
                 <router-link to="/flexGrid">Flexbox and CSS Grid </router-link>
@@ -355,26 +386,6 @@
                 </router-link>
               </li>
             </ol>
-            <ol start="43">
-              <li>
-                <router-link to="/svg">Introduction to SVG </router-link>
-              </li>
-              <li>
-                <router-link to="/svgDrawing"
-                  >Lab: Drawing basic SVG shapes
-                </router-link>
-              </li>
-            </ol>
-            <ol start="45">
-              <li>
-                <router-link to="/svgAnimationSMIL">Animating SVG</router-link>
-              </li>
-              <li>
-                <router-link to="/laboratories/laboratory05"
-                  >Lab: Animating SVG</router-link
-                >
-              </li>
-            </ol>
             <ol start="47">
               <li>
                 <router-link to="accessibility"
@@ -385,17 +396,11 @@
           </div>
         </div>
         <div class="day">
-          <div class="date"><h4>March 17, 2023</h4></div>
-          <div class="topics">
-
-          </div>
-        </div>
-        <div class="day">
           <div class="date group_work"><h4>March 31, 2023</h4></div>
           <div class="topics">
             <ul class="guest groupwork">
               <li>
-                Lab: Group Work with Teaching Assistant
+                Online lecture - 10:30
               </li>
             </ul>
           </div>
@@ -403,6 +408,11 @@
         <div class="day">
           <div class="date"><h4>April 21, 2023</h4></div>
           <div class="topics">
+            <ul class="guest groupwork">
+              <li>
+                Date might change or it will be online, or might be split into two or three short online lectures on Fridays
+              </li>
+            </ul>
             <!--<ol start="39">
               <li>
                 <router-link to="/scrollama">
