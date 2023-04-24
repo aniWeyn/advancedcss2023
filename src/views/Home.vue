@@ -370,7 +370,12 @@
                 <router-link to="/cssUnits">CSS Units </router-link>
               </li>
             </ol>
-            <!--
+          </div>
+        </div>
+        <div class="day">
+          <div class="date"><h4>April 28, 2023</h4></div>
+          <div class="topics">
+                        <!--
             <ol start="40">
               <li>
                 <router-link to="/flexGrid">Flexbox and CSS Grid </router-link>
@@ -393,27 +398,7 @@
                 </router-link>
               </li>
             </ol>-->
-          </div>
-        </div>
-        <div class="day">
-          <div class="date group_work"><h4>March 31, 2023</h4></div>
-          <div class="topics">
-            <ul class="guest groupwork">
-              <li>
-                Online lecture - 10:30
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="day">
-          <div class="date"><h4>April 21, 2023</h4></div>
-          <div class="topics">
-            <ul class="guest groupwork">
-              <li>
-                Date might change or it will be online, or might be split into two or three short online lectures on Fridays
-              </li>
-            </ul>
-            <!--<ol start="39">
+                        <!--<ol start="39">
               <li>
                 <router-link to="/scrollama">
                   Scrollytelling: Scrollama
@@ -449,16 +434,6 @@
                 Prepresentations of Assignmnet 3 within groups
               </li>
             </ol>-->
-          </div>
-        </div>
-        <div class="day">
-          <div class="date group_work"><h4>April 28, 2023</h4></div>
-          <div class="topics">
-            <ul class="guest groupwork">
-              <li>
-                Lab: Group Work with Teaching Assistant
-              </li>
-            </ul>
           </div>
         </div>
         <div class="day">
