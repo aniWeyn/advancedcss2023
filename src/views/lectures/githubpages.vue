@@ -4,7 +4,8 @@
     <div class="slide">
       <hr />
       <h3>What are GitHub Pages?</h3>
-      <p>...</p>
+      <p>GitHub Pages are public webpages hosted and published through GitHub.</p>
+      <p>GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</p>
     </div>
     <div class="slide">
       <hr />
