@@ -2,8 +2,24 @@
   <div class="container">
     <div>
       <h2>Flexbox</h2>
+      <p>
+        This exercises are meant to be used with your browser Dev Tools -
+        Inspector (right click - Inspect). Observe how Flexbox is draw,
+        interpreted and highlighted by browser.
+      </p>
     </div>
+    <p>
+      Below you can see a section of divs displayed according to default display
+      value (flow or block, see
+      <a
+        target="_blank"
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+        >https://developer.mozilla.org/en-US/docs/Web/CSS/display</a
+      >)
+    </p>
+    <!-- <section></section> is the flex container or "the parent" -->
     <section>
+      <!-- <div></div> is f / "" -->
       <div class="box one">1</div>
       <div class="box two">2</div>
       <div class="box three">3</div>
@@ -30,19 +46,20 @@
       <div class="box nine">20</div>
     </section>
     <section>
+      <h4>Task 1</h4>
       <p>
         Open DevTools in Firefox browser, use Layout function to observe how
         Flexbox is working. <br />
         Add in parent element (<code>&lt;section>&lt;/section></code>) following
         property:
       </p>
-      <h4>Task 1</h4>
       <code>
         <pre>
 display: flex;
           </pre
         >
       </code>
+      <hr/>
       <h4>Flexbox basics</h4>
       <section class="flex-basic">
         <div class="one">A bit of text.</div>
@@ -63,10 +80,11 @@ display: flex;
 
       <h4>Task 2</h4>
       <p>
-        Resize the browser window.
+        Resize the browser window. Observe how the browser will breake short and long paragraphs.
         <br />
         Note that the browser will not break a word.
       </p>
+      <hr/>
       <h4>Flexbox alignment</h4>
       <section class="flex-alignment">
         <div class="box one">1</div>
