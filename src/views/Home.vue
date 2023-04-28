@@ -382,7 +382,22 @@
                 </router-link>
               </li>
             </ol>
-            <!--<ol start="48">
+            <ol start="48">
+              <li>
+                <router-link to="/layouts">Flexbox and CSS Grid </router-link>
+              </li>
+              <li>
+                <router-link to="/laboratories/laboratory09flex"
+                  >Lab: Flexbox
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/laboratories/laboratory09grid"
+                  >Lab: CSS Grid
+                </router-link>
+              </li>
+            </ol>
+            <ol start="51">
               <li>
                 <router-link to="/scrollama">
                   Scrollytelling: Scrollama
@@ -404,22 +419,14 @@
                   Lab: Scrollama and SVG
                 </a>
               </li>
-            </ol>-->
-            <!--<ol start="51">
+            </ol>
+            <ol start="54">
               <li>
-                <router-link to="/layouts">Flexbox and CSS Grid </router-link>
-              </li>
-              <li>
-                <router-link to="/laboratories/laboratory09flex"
-                  >Lab: Flexbox
+                <router-link to="accessibility"
+                  >Accessibility in CSS (A11y)
                 </router-link>
               </li>
-              <li>
-                <router-link to="/laboratories/laboratory09grid"
-                  >Lab: CSS Grid
-                </router-link>
-              </li>
-            </ol>-->
+            </ol>
           </div>
         </div>
         <div class="day">
@@ -433,13 +440,6 @@
           <div class="topics">
                           <li><router-link to="/">Responsive images</router-link></li>
               <li><router-link to="/">Media queries</router-link></li>
-            <ol start="47">
-              <li>
-                <router-link to="accessibility"
-                  >Accessibility in CSS (A11y)
-                </router-link>
-              </li>
-            </ol>
             <ol start="48">
               <li>
                 <router-link to="/rootsofwebandcss">
