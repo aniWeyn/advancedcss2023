@@ -84,6 +84,22 @@ const routes = [
       ),
   },
   {
+    path: "/mediaqueries",
+    name: "MediaQueries",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/mediaqueries.vue"
+      ),
+  },
+  {
+    path: "/layouts",
+    name: "Layouts",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/layouts.vue"
+      ),
+  },
+  {
     path: "/books",
     name: "Books",
     component: () =>
@@ -177,14 +193,6 @@ const routes = [
     component: () =>
       import(
         /* webpackChunkName: "lecture01" */ "../views/lectures/Lecture09.vue"
-      ),
-  },
-  {
-    path: "/flexGrid",
-    name: "Flexbox and CSS Grid",
-    component: () =>
-      import(
-        /* webpackChunkName: "lecture01" */ "../views/lectures/flexGrid.vue"
       ),
   },
   {
