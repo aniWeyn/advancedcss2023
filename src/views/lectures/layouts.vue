@@ -1,6 +1,6 @@
 <template>
   <div class="lecture">
-    <Slide00 title="Advanced flexible layouts and grid systems" />
+    <Slide00 title="Flexible layouts and grid systems" />
     <div class="slide">
       <hr />
       <h4>Layout models</h4>
@@ -22,7 +22,7 @@
       </ul>
       <p>New:</p>
       <ul>
-        <li>Flexbox - (2009 - 2016)</li>
+        <li>Flexbox</li>
         <li>CSS Grid</li>
       </ul>
     </div>
@@ -120,7 +120,7 @@
       <hr />
       <h3>Flexbox - Laboratories</h3>
       <router-link targett="_blank" to="/laboratories/laboratory09flex"
-        >Laboratory 09 - 26.04.2021 - Flexbox
+        >Laboratory - Flexbox
       </router-link>
     </div>
     <div class="slide">
@@ -140,7 +140,7 @@
       <hr />
       <h3>CSS Grid - Laboratories</h3>
       <router-link targett="_blank" to="/laboratories/laboratory09grid"
-        >Laboratory 09 - 26.04.2021 - CSS Grid
+        >Laboratory - CSS Grid
       </router-link>
     </div>
     <div class="slide">
