@@ -407,7 +407,7 @@
             </ol>-->
             <!--<ol start="51">
               <li>
-                <router-link to="/flexGrid">Flexbox and CSS Grid </router-link>
+                <router-link to="/layouts">Flexbox and CSS Grid </router-link>
               </li>
               <li>
                 <router-link to="/laboratories/laboratory09flex"
