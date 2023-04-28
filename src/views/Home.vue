@@ -375,30 +375,14 @@
         <div class="day">
           <div class="date"><h4>April 28, 2023</h4></div>
           <div class="topics">
-                        <!--
-            <ol start="40">
+            <ol start="47">
               <li>
-                <router-link to="/flexGrid">Flexbox and CSS Grid </router-link>
-              </li>
-              <li>
-                <router-link to="/laboratories/laboratory09flex"
-                  >Lab: Flexbox
-                </router-link>
-              </li>
-              <li>
-                <router-link to="/laboratories/laboratory09grid"
-                  >Lab: CSS Grid
+                <router-link to="/githubpages">
+                  GitHub Pages
                 </router-link>
               </li>
             </ol>
-            <ol start="47">
-              <li>
-                <router-link to="accessibility"
-                  >Accessibility in CSS (A11y)
-                </router-link>
-              </li>
-            </ol>-->
-                        <!--<ol start="39">
+            <!--<ol start="48">
               <li>
                 <router-link to="/scrollama">
                   Scrollytelling: Scrollama
@@ -420,26 +404,43 @@
                   Lab: Scrollama and SVG
                 </a>
               </li>
-            </ol>
-            <ol start="42">
+            </ol>-->
+            <!--<ol start="51">
               <li>
-                <router-link to="/githubpages">
-                  GitHub Pages
+                <router-link to="/flexGrid">Flexbox and CSS Grid </router-link>
+              </li>
+              <li>
+                <router-link to="/laboratories/laboratory09flex"
+                  >Lab: Flexbox
                 </router-link>
               </li>
-            </ol>
-            </ol>
-            <ol start="47">
               <li>
-                Prepresentations of Assignmnet 3 within groups
+                <router-link to="/laboratories/laboratory09grid"
+                  >Lab: CSS Grid
+                </router-link>
               </li>
             </ol>-->
           </div>
         </div>
         <div class="day">
           <div class="date"><h4>May 5, 2023</h4></div>
+          <ol class="guest">
+              <li>
+                Assignment 3 - Presentations
+              </li>
+            </ol>
+          <!--
           <div class="topics">
-            <!--<ol start="48">
+                          <li><router-link to="/">Responsive images</router-link></li>
+              <li><router-link to="/">Media queries</router-link></li>
+            <ol start="47">
+              <li>
+                <router-link to="accessibility"
+                  >Accessibility in CSS (A11y)
+                </router-link>
+              </li>
+            </ol>
+            <ol start="48">
               <li>
                 <router-link to="/rootsofwebandcss">
                   Why the Web and CSS is the way it is??
@@ -451,14 +452,14 @@
                 <router-link to="/performance">
                   Performance (lazy loading, core web vitals)
                 </router-link>
-              </li>-->
-            <!--
+              </li>
+          
         <li>
           <router-link to="/laboratories/laboratory08">
           Lab: Lazy Loading
           </router-link>
-        </li>-->
-            <!-- </ol>
+        </li>
+             </ol>
             <ol start="50">
               <li>
                 <router-link to="/lectures/lecture09">
@@ -478,7 +479,18 @@
                 Presentations - project exhibitions
               </li>
               <li>Individual Report</li>
-            </ol>-->
+            </ol>
+          </div>-->
+        </div>
+        <div class="day">
+          <div class="date"><h4>May 12, 2023</h4></div>
+            <div class="topics">
+            <ol class="guest">
+              <li>
+                Assignment 3 - Presentations
+              </li>
+            </ol>
+            
           </div>
         </div>
       </div>
