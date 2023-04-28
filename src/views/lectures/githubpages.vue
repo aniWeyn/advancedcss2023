@@ -96,6 +96,15 @@
         />
       </figure>
     </div>
+    <div class="slide">
+      <hr/>
+      <h4>Exercise 1</h4>
+      <p>Fork below repository and deploy project to GitHub Pages</p>
+      <a href="https://github.com/aniWeyn/githubpages2023test" target="_blank">https://github.com/aniWeyn/githubpages2023test</a>
+      <h4>Exercise 2</h4>
+      <p>Try to deploy your Assignment 2 - Part 2 to GitHub Pages</p>
+      <p>Share links to deployed games with your class.</p>
+      </div>
   </div>
 </template>
 
