@@ -431,11 +431,20 @@
         </div>
         <div class="day">
           <div class="date"><h4>May 5, 2023</h4></div>
+          <div class="topics">
           <ol class="guest">
               <li>
                 Assignment 3 - Presentations
               </li>
             </ol>
+            <ul>
+              <li>Group 2</li>
+              <li>Group 3</li>
+              <li>Group 10</li>
+              <li>Group 11</li>
+              <li>Group 13</li>
+            </ul>
+          </div>
           <!--
           <div class="topics">
                           <li><router-link to="/">Responsive images</router-link></li>
@@ -490,7 +499,15 @@
                 Assignment 3 - Presentations
               </li>
             </ol>
-            
+            <ul>
+              <li>Group 1</li>
+              <li>Group 4</li>
+              <li>Group 6</li>
+              <li>Group 7</li>
+              <li>Group 8</li>
+              <li>Group 9</li>
+              <li>Group 12</li>
+            </ul>
           </div>
         </div>
       </div>
