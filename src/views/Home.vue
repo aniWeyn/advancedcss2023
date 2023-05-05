@@ -481,10 +481,12 @@
             </ol>
             <ol start="59">
               <li>
-                Presentations - project exhibitions
-              </li>
-              <li>
                 Final project
+              </li>
+            </ol>
+            <ol start="60">
+              <li>
+                Presentations - project exhibitions
               </li>
             </ol>
             <ul>
