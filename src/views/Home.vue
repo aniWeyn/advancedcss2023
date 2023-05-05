@@ -432,9 +432,59 @@
         <div class="day">
           <div class="date"><h4>May 5, 2023</h4></div>
           <div class="topics">
-          <ol class="guest">
+            <ol class="guest">
               <li>
                 Assignment 3 - Presentations
+              </li>
+            </ol>
+            <ol start="55">
+              <li>
+                <router-link to="/a02feedback"
+                  >Assignment 2 - Feedback</router-link
+                >
+              </li>
+            </ol>
+            <ol start="56">
+              <li>
+                <router-link to="/rootsofwebandcss">
+                  Why the Web and CSS is the way it is??
+                </router-link>
+              </li>
+            </ol>
+            <!--
+            <ol start="49">
+              <li>
+                <router-link to="/performance">
+                  Performance (lazy loading, core web vitals)
+                </router-link>
+              </li>
+
+              <li>
+                <router-link to="/laboratories/laboratory08">
+                  Lab: Lazy Loading
+                </router-link>
+              </li>
+            </ol>-->
+            <ol start="57">
+              <li>
+                <router-link to="/lectures/lecture09">
+                  CSS Frameworks and Design Systems
+                </router-link>
+              </li>
+            </ol>
+            <ol start="58">
+              <li>
+                <router-link to="/webframeworksandheadlesscms">
+                  What are moder frameworks and headless CMS?
+                </router-link>
+              </li>
+            </ol>
+            <ol start="59">
+              <li>
+                Presentations - project exhibitions
+              </li>
+              <li>
+                Final project
               </li>
             </ol>
             <ul>
@@ -445,70 +495,25 @@
               <li>Group 13</li>
             </ul>
           </div>
-          <!--
-          <div class="topics">
-                          <li><router-link to="/">Responsive images</router-link></li>
-              <li><router-link to="/">Media queries</router-link></li>
-            <ol start="48">
-              <li>
-                <router-link to="/rootsofwebandcss">
-                  Why the Web and CSS is the way it is??
-                </router-link>
-              </li>
-            </ol>
-            <ol start="49">
-              <li>
-                <router-link to="/performance">
-                  Performance (lazy loading, core web vitals)
-                </router-link>
-              </li>
-          
-        <li>
-          <router-link to="/laboratories/laboratory08">
-          Lab: Lazy Loading
-          </router-link>
-        </li>
-             </ol>
-            <ol start="50">
-              <li>
-                <router-link to="/lectures/lecture09">
-                  CSS Frameworks and Design Systems
-                </router-link>
-              </li>
-            </ol>
-            <ol start="51">
-              <li>
-                <router-link to="/webframeworksandheadlesscms">
-                  What are moder frameworks and headless CMS?
-                </router-link>
-              </li>
-            </ol>
-            <ol start="52">
-              <li>
-                Presentations - project exhibitions
-              </li>
-              <li>Individual Report</li>
-            </ol>
-          </div>-->
         </div>
-        <div class="day">
-          <div class="date"><h4>May 12, 2023</h4></div>
-            <div class="topics">
-            <ol class="guest">
-              <li>
-                Assignment 3 - Presentations
-              </li>
-            </ol>
-            <ul>
-              <li>Group 1</li>
-              <li>Group 4</li>
-              <li>Group 6</li>
-              <li>Group 7</li>
-              <li>Group 8</li>
-              <li>Group 9</li>
-              <li>Group 12</li>
-            </ul>
-          </div>
+      </div>
+      <div class="day">
+        <div class="date"><h4>May 12, 2023</h4></div>
+        <div class="topics">
+          <ol class="guest">
+            <li>
+              Assignment 3 - Presentations
+            </li>
+          </ol>
+          <ul>
+            <li>Group 1</li>
+            <li>Group 4</li>
+            <li>Group 6</li>
+            <li>Group 7</li>
+            <li>Group 8</li>
+            <li>Group 9</li>
+            <li>Group 12</li>
+          </ul>
         </div>
       </div>
     </article>

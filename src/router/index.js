@@ -76,6 +76,14 @@ const routes = [
       ),
   },
   {
+    path: "/responsiveimages",
+    name: "Responsive Images",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/responsiveimages.vue"
+      ),
+  },
+  {
     path: "/a01feedback",
     name: "Assignment 01 Feedback",
     component: () =>

@@ -29,6 +29,13 @@
         everyone on the team has a chance to practice coding, source control,
         and other key skills.
       </p>
+      <h5>Branch per student</h5>
+      <p>
+        Instead of naming your branches after yourself or a specific task, it's
+        best to name them after the feature you are developing. This helps keep
+        our codebase organized and makes it easier for everyone to understand
+        what each branch is working on.
+      </p>
     </div>
     <div class="slide">
       <hr />
@@ -86,6 +93,49 @@
       <a href="https://commonmark.org/help/tutorial/" target="_blank"
         >https://commonmark.org/help/tutorial/</a
       >
+    </div>
+    <div class="slide">
+      <hr />
+      <h4>CSS Architecture</h4>
+      <h5>SASS: imports and partials</h5>
+      <p>
+        In SASS, it's common practice to use an index.scss file to import all of
+        the partials for a project. This helps with organization and makes it
+        easier to maintain the codebase. By naming the import file index.scss,
+        developers can easily identify the main entry point for the project's
+        styles.
+      </p>
+      <h5>SASS: naming of import file</h5>
+      <p>According to convention it should be named index.scss</p>
+      <h5>SASS: importing partials</h5>
+      <p>just @import "_nameOfFile.scss"</p>
+      <h5>SASS: import queue</h5>
+      <p>
+        atoms / blocks like colors, spacing, fonts should be imported first,
+        files that are using this atoms should be imported later
+      </p>
+    </div>
+    <div class="slide">
+      <hr />
+      <h4>CSS</h4>
+      <h5>Styling by HTML tags</h5>
+      <p>
+        Styling elements by HTML tags can create issues with specificity. CSS
+        selectors have a specific order of precedence in determining which
+        styles should be applied to an element. When you style elements by their
+        HTML tags, you are using a selector with a lower level of specificity
+        than if you were to style them by class or ID. This can cause conflicts
+        if you later try to style the same elements with more specific
+        selectors.
+      </p>
+      <p>
+        In summary, while it is technically possible to style elements by HTML
+        tags, it is not considered best practice because it can create issues
+        with specificity, make your code less modular and harder to maintain,
+        and make your code less semantic. By using classes to target specific
+        elements, you can create a more flexible and maintainable codebase that
+        is easier to understand and work with in the long run.
+      </p>
     </div>
   </div>
 </template>
