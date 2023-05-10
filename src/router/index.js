@@ -100,6 +100,14 @@ const routes = [
       ),
   },
   {
+    path: "/a03feedback",
+    name: "Assignment 03 Feedback",
+    component: () =>
+      import(
+        /* webpackChunkName: "lecture01" */ "../views/lectures/Assignment03Feedback.vue"
+      ),
+  },
+  {
     path: "/mediaqueries",
     name: "MediaQueries",
     component: () =>
